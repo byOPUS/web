@@ -1,7 +1,7 @@
-# 🚀 Orangopus Project Index
+# 🚀 Opus Project Index
 
 ## 📋 Overview
-Orangopus is a community-driven development platform built with Vue 3, TypeScript, and Supabase. This document provides a comprehensive index of all components, services, and features.
+Opus is a community-driven development platform built with Vue 3, TypeScript, and Supabase. This document provides a comprehensive index of all components, services, and features.
 
 ## 🏗️ Architecture
 
@@ -64,7 +64,7 @@ src/
 ├── router/              # Vue Router configuration
 │   └── index.ts         # Route definitions
 ├── screens/             # Main application screens
-│   └── OrangopusWebapp.vue # Main application component
+│   └── OpusWebapp.vue # Main application component
 ├── services/            # Business logic services
 │   ├── authService.ts   # Authentication service
 │   ├── communityService.ts # Community features
@@ -390,4 +390,4 @@ CREATE TABLE projects (
 
 ---
 
-This index provides a comprehensive overview of the Orangopus project structure, features, and development workflow. For detailed implementation, refer to the individual component files and service implementations. 
+This index provides a comprehensive overview of the Opus project structure, features, and development workflow. For detailed implementation, refer to the individual component files and service implementations. 

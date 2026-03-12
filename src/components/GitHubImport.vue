@@ -3,7 +3,7 @@
     <div v-if="!isConnected" class="connect-section">
       <div class="connect-header">
         <h3>Connect Your GitHub Account</h3>
-        <p>Import your existing repositories as Orangopus projects</p>
+        <p>Import your existing repositories as Opus projects</p>
       </div>
       
       <button @click="connectGitHub" class="connect-btn" :disabled="loading">

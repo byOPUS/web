@@ -7,7 +7,7 @@
     <div class="journey-content">
       <h2 class="section-title animate-on-scroll">Our Cosmic Journey</h2>
       <p class="journey-description animate-on-scroll">
-        <span class="highlight">Orangopus began as a spark</span>
+        <span class="highlight">Opus began as a spark</span>
         — a vision to build a non-profit, open-source playground where
         creativity has no gravitational limits.
         <br /><br />

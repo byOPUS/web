@@ -14,9 +14,9 @@ VUE_APP_GITHUB_CLIENT_ID=your_github_client_id
 VUE_APP_GITHUB_CLIENT_SECRET=your_github_client_secret
 
 # App Configuration
-VUE_APP_APP_NAME=Orangopus
+VUE_APP_APP_NAME=Opus
 VUE_APP_APP_DESCRIPTION=Community-Driven Development Platform
-VUE_APP_APP_URL=https://orangopus.org
+VUE_APP_APP_URL=https://opus.org
 ```
 
 ## Setting up Supabase

@@ -31,10 +31,10 @@ export default defineComponent({
   data() {
     return {
       faqItems: [
-        { question: "What is Orangopus?", answer: "Orangopus is an open-source, non-profit collective dedicated to pushing the boundaries of project creation and innovation." },
-        { question: "Who is this for?", answer: "Orangopus is for creators, developers, dreamers, and anyone interested in collaborative, open-source projects." },
+        { question: "What is Opus?", answer: "Opus is an open-source, non-profit collective dedicated to pushing the boundaries of project creation and innovation." },
+        { question: "Who is this for?", answer: "Opus is for creators, developers, dreamers, and anyone interested in collaborative, open-source projects." },
         { question: "How do I get started?", answer: "You can start by exploring our projects on GitHub, joining our Discord community, or contributing to one of our open-source initiatives." },
-        { question: "How can I support the project?", answer: "You can support Orangopus by contributing code, sharing ideas, spreading the word, or making a donation to help fund our initiatives." },
+        { question: "How can I support the project?", answer: "You can support Opus by contributing code, sharing ideas, spreading the word, or making a donation to help fund our initiatives." },
         { question: "Where does all your money go?", answer: "As a non-profit, all funds go directly into supporting our projects, maintaining our infrastructure, and furthering our mission of accessible innovation." },
       ],
     };

@@ -1,11 +1,11 @@
-# 🚀 Orangopus - Community-Driven Development Platform
+# 🚀 Opus - Community-Driven Development Platform
 
-A modern, beautiful Vue.js website showcasing the Orangopus community with GitHub integration, social features, and project collaboration tools.
+A modern, beautiful Vue.js website showcasing the Opus community with GitHub integration, social features, and project collaboration tools.
 
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?style=for-the-badge&logo=github)](https://github.com/orangopus/web.git)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?style=for-the-badge&logo=github)](https://github.com/opus/web.git)
 
 ## 📍 Repository
-**GitHub**: https://github.com/orangopus/web.git
+**GitHub**: https://github.com/opus/web.git
 
 ## ✨ Features
 
@@ -63,7 +63,7 @@ A modern, beautiful Vue.js website showcasing the Orangopus community with GitHu
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/orangopus/web.git
+   git clone https://github.com/opus/web.git
    cd web
    ```
 
@@ -145,7 +145,7 @@ src/
 │   ├── Footer.vue       # Footer component
 │   └── Notification.vue # Toast notification system
 ├── screens/             # Main app screens
-│   └── OrangopusWebapp.vue # Main application component
+│   └── OpusWebapp.vue # Main application component
 ├── icons/               # SVG icon components
 └── main.ts             # Application entry point
 ```
@@ -192,7 +192,7 @@ The application uses CSS custom properties for easy theming:
 
 ### Adding New Sections
 1. Create a new Vue component in `src/components/`
-2. Add it to the main app in `src/screens/OrangopusWebapp.vue`
+2. Add it to the main app in `src/screens/OpusWebapp.vue`
 3. Add navigation link in `src/components/Navigation.vue`
 
 ## 📱 Responsive Design
@@ -252,10 +252,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-- **Website**: [orangopus.org](https://orangopus.org)
-- **GitHub**: [@orangopus](https://github.com/orangopus)
-- **Email**: jordan@orangopus.org
+- **Website**: [opus.org](https://opus.org)
+- **GitHub**: [@opus](https://github.com/opus)
+- **Email**: jordan@opus.org
 
 ---
 
-Made with ❤️ by the Orangopus Community 
+Made with ❤️ by the Opus Community 

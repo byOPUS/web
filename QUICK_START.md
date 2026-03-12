@@ -1,6 +1,6 @@
 # ⚡ Quick Start Guide
 
-Get the Orangopus MVP running in under 5 minutes!
+Get the Opus MVP running in under 5 minutes!
 
 ## 🚀 Prerequisites
 
@@ -13,7 +13,7 @@ Get the Orangopus MVP running in under 5 minutes!
 ### 1. Clone and Setup
 ```bash
 # Clone the repository
-git clone https://github.com/orangopus/web.git
+git clone https://github.com/opus/web.git
 cd web
 
 # Run the automated setup script
@@ -163,13 +163,13 @@ npm run dev -- --port 3000
 ## 🆘 Need Help?
 
 - **Documentation**: Check `MVP_GUIDE.md`
-- **Issues**: [GitHub Issues](https://github.com/orangopus/web/issues)
-- **Community**: [Discord](https://discord.gg/orangopus)
-- **Email**: jordan@orangopus.org
+- **Issues**: [GitHub Issues](https://github.com/opus/web/issues)
+- **Community**: [Discord](https://discord.gg/opus)
+- **Email**: jordan@opus.org
 
 ## 🎉 You're Ready!
 
-Your Orangopus MVP is now running! Start building your community-driven development platform.
+Your Opus MVP is now running! Start building your community-driven development platform.
 
 ---
 

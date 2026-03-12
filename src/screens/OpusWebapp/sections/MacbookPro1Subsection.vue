@@ -17,7 +17,7 @@
           <div class="text-wrapper-29">Terms &amp; Conditions</div>
         </div>
         <p class="text-wrapper-30">
-          (C) Orangopus 2125 - All rights reserved across the galaxy.
+          (C) Opus 2125 - All rights reserved across the galaxy.
         </p>
       </div>
       <div class="frame-29">

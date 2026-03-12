@@ -219,15 +219,15 @@ class ContentService {
     return [
       {
         id: '1',
-        question: 'What is Orangopus?',
-        answer: 'Orangopus is a platform that simplifies development by providing intuitive tools, resources, and a supportive community for developers of all skill levels.',
+        question: 'What is Opus?',
+        answer: 'Opus is a platform that simplifies development by providing intuitive tools, resources, and a supportive community for developers of all skill levels.',
         category: 'general',
         order_index: 1,
         is_active: true
       },
       {
         id: '2',
-        question: 'Is Orangopus free to use?',
+        question: 'Is Opus free to use?',
         answer: 'Yes! Our core platform is completely free and open source. We believe in democratizing development tools for everyone.',
         category: 'general',
         order_index: 2,
@@ -235,7 +235,7 @@ class ContentService {
       },
       {
         id: '3',
-        question: 'How can I contribute to Orangopus?',
+        question: 'How can I contribute to Opus?',
         answer: 'You can contribute by joining our community, sharing projects, providing feedback, or contributing code to our open source repositories.',
         category: 'community',
         order_index: 3,
@@ -243,7 +243,7 @@ class ContentService {
       },
       {
         id: '4',
-        question: 'What technologies does Orangopus support?',
+        question: 'What technologies does Opus support?',
         answer: 'We support a wide range of technologies including JavaScript, TypeScript, Python, React, Vue, Node.js, and many more.',
         category: 'technical',
         order_index: 4,

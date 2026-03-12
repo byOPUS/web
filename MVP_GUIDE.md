@@ -1,8 +1,8 @@
-# 🚀 Orangopus MVP Guide
+# 🚀 Opus MVP Guide
 
 ## 📋 Overview
 
-The Orangopus MVP is a community-driven development platform that enables developers to showcase projects, collaborate with others, and build a vibrant community around open-source development.
+The Opus MVP is a community-driven development platform that enables developers to showcase projects, collaborate with others, and build a vibrant community around open-source development.
 
 ## 🎯 Core Features
 
@@ -81,7 +81,7 @@ The Orangopus MVP is a community-driven development platform that enables develo
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/orangopus/web.git
+   git clone https://github.com/opus/web.git
    cd web
    ```
 
@@ -219,7 +219,7 @@ VUE_APP_SUPABASE_ANON_KEY=your_supabase_anon_key
 # Optional
 VUE_APP_GITHUB_CLIENT_ID=your_github_client_id
 VUE_APP_GITHUB_CLIENT_SECRET=your_github_client_secret
-VUE_APP_APP_NAME=Orangopus
+VUE_APP_APP_NAME=Opus
 VUE_APP_APP_DESCRIPTION=Community-Driven Development Platform
 ```
 
@@ -354,14 +354,14 @@ npm run build
 - [TypeScript Documentation](https://www.typescriptlang.org/)
 
 ### Community
-- [GitHub Repository](https://github.com/orangopus/web)
-- [Discord Community](https://discord.gg/orangopus)
-- [Twitter](https://twitter.com/orangopus)
+- [GitHub Repository](https://github.com/opus/web)
+- [Discord Community](https://discord.gg/opus)
+- [Twitter](https://twitter.com/opus)
 
 ### Support
-- [Issues](https://github.com/orangopus/web/issues)
-- [Discussions](https://github.com/orangopus/web/discussions)
-- [Email](jordan@orangopus.org)
+- [Issues](https://github.com/opus/web/issues)
+- [Discussions](https://github.com/opus/web/discussions)
+- [Email](jordan@opus.org)
 
 ## 🎯 Roadmap
 
@@ -386,4 +386,4 @@ npm run build
 
 ---
 
-This MVP guide provides a comprehensive overview of the Orangopus platform. For detailed implementation, refer to the individual component files and service implementations. 
+This MVP guide provides a comprehensive overview of the Opus platform. For detailed implementation, refer to the individual component files and service implementations. 

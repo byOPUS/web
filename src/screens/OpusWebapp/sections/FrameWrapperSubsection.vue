@@ -9,7 +9,7 @@
         Ready to Join the Open-Source Frontier?
       </p>
       <p class="text-wrapper-27">
-        Build freely. Collaborate globally. Launch fearlessly. Orangopus is
+        Build freely. Collaborate globally. Launch fearlessly. Opus is
         your creative command center.
       </p>
       <div class="frame-23">

@@ -4,7 +4,7 @@
     <div class="press-kit-content">
       <h2 class="section-title animate-on-scroll">PressKite</h2>
       <p class="section-description">
-        Everything you need to write about Orangopus. For all press inquiries, please contact us at <a href="mailto:press@orangopus.org" class="press-email">press@orangopus.org</a>.
+        Everything you need to write about Opus. For all press inquiries, please contact us at <a href="mailto:press@opus.org" class="press-email">press@opus.org</a>.
       </p>
 
       <div class="kit-grid">
@@ -13,9 +13,9 @@
           <div class="card-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 15c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5z"/></svg>
           </div>
-          <h3 class="card-title">About Orangopus</h3>
+          <h3 class="card-title">About Opus</h3>
           <p class="card-text">
-            Orangopus is a grassroots nonprofit open collective making it easier for anyone, of any background, to create projects and get support without judgment or intolerance. We are building an inclusive, global community where creativity and collaboration thrive.
+            Opus is a grassroots nonprofit open collective making it easier for anyone, of any background, to create projects and get support without judgment or intolerance. We are building an inclusive, global community where creativity and collaboration thrive.
           </p>
         </div>
 
@@ -29,7 +29,7 @@
             Download our official logos and branding guidelines. Please do not alter our logos in any way.
           </p>
           <div class="logo-downloads">
-            <a href="https://orangopus.presskite.com" download class="download-button">PressKite</a>
+            <a href="https://opus.presskite.com" download class="download-button">PressKite</a>
           </div>
         </div>
 

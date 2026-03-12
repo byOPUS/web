@@ -15,7 +15,7 @@
     <div class="cta-content">
       <h2 class="cta-title animate-on-scroll">Ready to Join the Open-Source Frontier?</h2>
       <p class="cta-description animate-on-scroll">
-        Build freely. Collaborate globally. Launch fearlessly. Orangopus is
+        Build freely. Collaborate globally. Launch fearlessly. Opus is
         your creative command center.
       </p>
       <div class="cta-buttons animate-on-scroll">

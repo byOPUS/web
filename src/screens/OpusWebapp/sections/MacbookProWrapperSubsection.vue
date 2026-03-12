@@ -38,7 +38,7 @@
             </div>
             <a
               class="text-wrapper-8"
-              href="https://github.com/orangopus/dynamix-toolbox"
+              href="https://github.com/opus/dynamix-toolbox"
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -74,7 +74,7 @@
             </div>
             <a
               class="text-wrapper-11"
-              href="https://github.com/orangopus/dynamix-toolbox"
+              href="https://github.com/opus/dynamix-toolbox"
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -110,7 +110,7 @@
             </div>
             <a
               class="text-wrapper-11"
-              href="https://github.com/orangopus/dynamix-toolbox"
+              href="https://github.com/opus/dynamix-toolbox"
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -148,7 +148,7 @@
             </div>
             <a
               class="text-wrapper-11"
-              href="https://github.com/orangopus/dynamix-toolbox"
+              href="https://github.com/opus/dynamix-toolbox"
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -184,7 +184,7 @@
             </div>
             <a
               class="text-wrapper-11"
-              href="https://github.com/orangopus/dynamix-toolbox"
+              href="https://github.com/opus/dynamix-toolbox"
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -220,7 +220,7 @@
             </div>
             <a
               class="text-wrapper-11"
-              href="https://github.com/orangopus/dynamix-toolbox"
+              href="https://github.com/opus/dynamix-toolbox"
               rel="noopener noreferrer"
               target="_blank"
             >

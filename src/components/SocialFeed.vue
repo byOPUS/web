@@ -300,7 +300,7 @@ export default defineComponent({
     
     async loadUserRepositories() {
       try {
-        const result = await communityService.getGitHubRepos('orangopus');
+        const result = await communityService.getGitHubRepos('opus');
         if (result.success && result.repos) {
           this.userRepositories = result.repos;
         }

@@ -344,8 +344,8 @@ const filteredNews = news.filter(article => {
 
 The News Observatory provides a comprehensive solution for displaying and managing news content from StoryChief. With its beautiful design, robust functionality, and excellent user experience, it serves as a central hub for community news and updates.
 
-The system is designed to be scalable, maintainable, and user-friendly, making it an excellent addition to the Orangopus platform.
+The system is designed to be scalable, maintainable, and user-friendly, making it an excellent addition to the Opus platform.
 
 ---
 
-**Ready to explore the cosmos of news?** The Observatory is now live and ready to discover the latest insights from the Orangopus universe! 
+**Ready to explore the cosmos of news?** The Observatory is now live and ready to discover the latest insights from the Opus universe! 

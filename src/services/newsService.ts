@@ -267,9 +267,9 @@ class NewsService {
     return [
       {
         id: "1",
-        title: "Orangopus Community Reaches 1000+ Contributors",
+        title: "Opus Community Reaches 1000+ Contributors",
         excerpt: "We're excited to announce that our community has grown to over 1000 active contributors, marking a major milestone in our journey.",
-        content: "<p>This is a detailed article about our community growth and the amazing contributions from developers around the world.</p><p>We've seen incredible projects being built, innovative solutions being shared, and a truly collaborative spirit that defines what Orangopus is all about.</p>",
+        content: "<p>This is a detailed article about our community growth and the amazing contributions from developers around the world.</p><p>We've seen incredible projects being built, innovative solutions being shared, and a truly collaborative spirit that defines what Opus is all about.</p>",
         featured_image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&h=400&fit=crop",
         published_at: "2024-01-15T10:00:00Z",
         author: { name: "Jordan Smith" },
@@ -279,7 +279,7 @@ class NewsService {
           { id: "2", name: "community" },
           { id: "3", name: "growth" }
         ],
-        slug: "orangopus-community-reaches-1000-contributors",
+        slug: "opus-community-reaches-1000-contributors",
         read_time: 3,
         views: 1250
       },
@@ -339,7 +339,7 @@ class NewsService {
       },
       {
         id: "5",
-        title: "Orangopus Hackathon 2024: Winners Announced",
+        title: "Opus Hackathon 2024: Winners Announced",
         excerpt: "Congratulations to all participants and winners of our annual hackathon! See the amazing projects that were built.",
         content: "<p>Our annual hackathon was a huge success with over 500 participants from around the world. The creativity and innovation on display was truly inspiring.</p><p>We're excited to share the winning projects and highlight the incredible work that was done.</p>",
         featured_image: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=800&h=400&fit=crop",
@@ -351,7 +351,7 @@ class NewsService {
           { id: "14", name: "winners" },
           { id: "15", name: "innovation" }
         ],
-        slug: "orangopus-hackathon-2024-winners-announced",
+        slug: "opus-hackathon-2024-winners-announced",
         read_time: 4,
         views: 3200
       }

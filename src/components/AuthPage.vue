@@ -8,8 +8,8 @@
       <div class="auth-card">
         <div class="auth-header">
           <div class="logo-section">
-            <img src="https://c.animaapp.com/bX3QfjDJ/img/simplification.svg" alt="Orangopus" class="auth-logo" />
-            <h1 class="auth-title">Welcome to Orangopus</h1>
+            <img src="https://c.animaapp.com/bX3QfjDJ/img/simplification.svg" alt="Opus" class="auth-logo" />
+            <h1 class="auth-title">Welcome to Opus</h1>
             <p class="auth-subtitle">Join our inclusive community of creators</p>
           </div>
           

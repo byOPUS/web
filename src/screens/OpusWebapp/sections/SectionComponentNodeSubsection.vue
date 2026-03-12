@@ -3,7 +3,7 @@
     <div class="text-wrapper-23">FAQ</div>
     <div class="frame-19">
       <div class="frame-20">
-        <div class="text-wrapper-24">What is Orangopus?</div>
+        <div class="text-wrapper-24">What is Opus?</div>
         <ChevronUp2 class="chevron-up" />
       </div>
       <div class="rectangle" />

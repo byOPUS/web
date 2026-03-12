@@ -2,7 +2,7 @@
   <nav class="navigation" :class="{ 'scrolled': isScrolled }">
     <div class="nav-content">
       <div class="nav-brand">
-        <img src="https://c.animaapp.com/bX3QfjDJ/img/simplification.svg" alt="Orangopus" class="nav-logo" />
+        <img src="logo.svg" alt="Opus" class="nav-logo" />
       </div>
       
       <div class="nav-links">

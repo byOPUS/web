@@ -1,5 +1,5 @@
 -- =================================================================
---        ORANGOPUS SUPABASE DATABASE SETUP SCRIPT
+--        OPUS SUPABASE DATABASE SETUP SCRIPT
 -- =================================================================
 -- This script will completely reset and configure your database.
 -- It is designed to be run once on a fresh Supabase project.

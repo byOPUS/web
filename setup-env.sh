@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# Environment Setup Script for Orangopus
-echo "🚀 Setting up environment variables for Orangopus"
+# Environment Setup Script for Opus
+echo "🚀 Setting up environment variables for Opus"
 echo ""
 
 # Check if .env already exists
@@ -25,8 +25,8 @@ read -p "Enter your Supabase Project URL (e.g., https://your-project.supabase.co
 read -p "Enter your Supabase Anon Key: " SUPABASE_ANON_KEY
 
 # Get app title
-read -p "Enter your app title (default: Orangopus): " APP_TITLE
-APP_TITLE=${APP_TITLE:-Orangopus}
+read -p "Enter your app title (default: Opus): " APP_TITLE
+APP_TITLE=${APP_TITLE:-Opus}
 
 # Get app description
 read -p "Enter your app description (default: Grassroots nonprofit open collective platform): " APP_DESCRIPTION

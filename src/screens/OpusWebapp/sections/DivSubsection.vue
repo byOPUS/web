@@ -1,8 +1,8 @@
 <template>
   <div class="div-subsection">
     <div class="text-wrapper-21">Our Cosmic Journey</div>
-    <p class="orangopus-began-as-a">
-      <span class="span">Orangopus began as a spark </span>
+    <p class="opus-began-as-a">
+      <span class="span">Opus began as a spark </span>
       <span class="text-wrapper-22">
         — a vision to build a non-profit, open-source playground where
         creativity has no gravitational limits.
@@ -51,7 +51,7 @@ export default defineComponent({
   width: fit-content;
 }
 
-.div-subsection .orangopus-began-as-a {
+.div-subsection .opus-began-as-a {
   color: transparent;
   font-family: "Manrope", Helvetica;
   font-size: 17.2px;

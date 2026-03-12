@@ -3,7 +3,7 @@
     <div class="section-background">
       <div class="floating-particles"></div>
     </div>
-    <h2 class="section-title animate-on-scroll">The Humans Behind Orangopus</h2>
+    <h2 class="section-title animate-on-scroll">The Humans Behind Opus</h2>
     <p class="section-description animate-on-scroll">
       Designers. Developers. Dreamers. These are the people shaping the
       galaxy with us.
@@ -40,10 +40,10 @@ export default defineComponent({
     return {
       teamMembers: [
         { name: "Cheesecastv20053", role: "Founder" },
-        { name: "Ellie@orangopus", role: "Team" },
-        { name: "Jordan@orangopus", role: "Team" },
-        { name: "Rim@orangopus", role: "Team" },
-        { name: "Tortle@orangopus", role: "Team" },
+        { name: "Ellie@opus", role: "Team" },
+        { name: "Jordan@opus", role: "Team" },
+        { name: "Rim@opus", role: "Team" },
+        { name: "Tortle@opus", role: "Team" },
         { name: "Silasonlinux", role: "Team" },
         { name: "Tvgameruk", role: "Team" },
         { name: "Runawaylobster", role: "Modopus" },

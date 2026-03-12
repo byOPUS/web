@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import OrangopusWebapp from '@/screens/OrangopusWebapp.vue'
+import OpusWebapp from '@/screens/OpusWebapp.vue'
 import ProjectDetail from '@/components/ProjectDetail.vue'
 import Globe from '@/components/Globe.vue'
 
@@ -7,12 +7,12 @@ const routes = [
   {
     path: '/',
     name: 'Home',
-    component: OrangopusWebapp
+    component: OpusWebapp
   },
   {
     path: '/observatory',
     name: 'Observatory',
-    component: OrangopusWebapp,
+    component: OpusWebapp,
     props: { initialView: 'observatory' }
   },
   {
@@ -24,13 +24,13 @@ const routes = [
   {
     path: '/dashboard',
     name: 'Dashboard',
-    component: OrangopusWebapp,
+    component: OpusWebapp,
     props: { initialView: 'dashboard' }
   },
   {
     path: '/profile',
     name: 'Profile',
-    component: OrangopusWebapp,
+    component: OpusWebapp,
     props: { initialView: 'profile' }
   },
   {
@@ -55,15 +55,15 @@ const router = createRouter({
 // Update page title based on route
 router.beforeEach((to, from, next) => {
   const titles: { [key: string]: string } = {
-    'Home': 'Orangopus - Simplifying Development',
-    'Observatory': 'News Observatory - Orangopus',
-    'Dashboard': 'Dashboard - Orangopus',
-    'Profile': 'Profile - Orangopus',
-    'ProjectDetail': 'Project Details - Orangopus',
-    'Globe': 'Earth Data Globe - Orangopus'
+    'Home': 'Opus - Simplifying Development',
+    'Observatory': 'News Observatory - Opus',
+    'Dashboard': 'Dashboard - Opus',
+    'Profile': 'Profile - Opus',
+    'ProjectDetail': 'Project Details - Opus',
+    'Globe': 'Earth Data Globe - Opus'
   }
   
-  const title = titles[to.name as string] || 'Orangopus - Simplifying Development'
+  const title = titles[to.name as string] || 'Opus - Simplifying Development'
   document.title = title
   
   next()

@@ -17,7 +17,7 @@ Expected behavior:
 
 ### 3. Component Verification
 Check that the NewsObservatory component is:
-- ✅ Imported in OrangopusWebapp.vue
+- ✅ Imported in OpusWebapp.vue
 - ✅ Registered in components list
 - ✅ Added to the template
 - ✅ Has proper CSS styling
@@ -25,7 +25,7 @@ Check that the NewsObservatory component is:
 ### 4. Router Configuration
 Verify the route is properly configured:
 - ✅ Route `/observatory` exists in router
-- ✅ Points to OrangopusWebapp with initialView: 'observatory'
+- ✅ Points to OpusWebapp with initialView: 'observatory'
 - ✅ Component handles the observatory view
 
 ### 5. Navigation Integration

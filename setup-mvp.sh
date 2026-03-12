@@ -1,9 +1,9 @@
 #!/bin/bash
 
-# 🚀 Orangopus MVP Setup Script
-# This script helps you set up the Orangopus MVP quickly
+# 🚀 Opus MVP Setup Script
+# This script helps you set up the Opus MVP quickly
 
-echo "🚀 Setting up Orangopus MVP..."
+echo "🚀 Setting up Opus MVP..."
 
 # Colors for output
 RED='\033[0;31m'
@@ -86,9 +86,9 @@ VUE_APP_GITHUB_CLIENT_SECRET=your_github_client_secret
 VUE_APP_STORYCHIEF_TOKEN=your_storychief_api_token
 
 # App Configuration
-VUE_APP_APP_NAME=Orangopus
+VUE_APP_APP_NAME=Opus
 VUE_APP_APP_DESCRIPTION=Community-Driven Development Platform
-VUE_APP_APP_URL=https://orangopus.org
+VUE_APP_APP_URL=https://opus.org
 EOF
         print_warning "Please update the .env file with your actual values"
     else
@@ -156,7 +156,7 @@ start_dev() {
 # Main setup function
 main() {
     echo ""
-    echo "🎯 Orangopus MVP Setup"
+    echo "🎯 Opus MVP Setup"
     echo "========================"
     echo ""
     

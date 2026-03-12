@@ -1,5 +1,5 @@
 <template>
-  <div class="orangopus-webapp">
+  <div class="opus-webapp">
     <!-- Auth Page View -->
     <AuthPage 
       v-if="showAuth" 
@@ -129,7 +129,7 @@ interface Repository {
 }
 
 export default defineComponent({
-  name: "OrangopusWebapp",
+  name: "OpusWebapp",
   components: {
     Navigation,
     Notification,
@@ -205,7 +205,7 @@ export default defineComponent({
       if (notification) {
         notification.success(
           'Welcome!',
-          'You have successfully signed in to Orangopus.'
+          'You have successfully signed in to Opus.'
         );
       }
     },
@@ -350,7 +350,7 @@ export default defineComponent({
 </script>
 
 <style scoped>
-.orangopus-webapp {
+.opus-webapp {
   background-color: #000000;
   display: flex;
   flex-direction: column;
@@ -369,7 +369,7 @@ export default defineComponent({
   color: #000000;
 }
 
-.light-theme .orangopus-webapp {
+.light-theme .opus-webapp {
   background-color: #ffffff;
 }
 

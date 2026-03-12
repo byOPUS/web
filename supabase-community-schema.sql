@@ -151,18 +151,18 @@ CREATE TRIGGER update_community_posts_updated_at
 INSERT INTO community_posts (user_id, user_name, user_avatar, content, post_type, tags, likes_count, comments_count, github_repo) VALUES
 (
   (SELECT id FROM auth.users LIMIT 1),
-  'Ellie@orangopus',
+  'Ellie@opus',
   'https://c.animaapp.com/bX3QfjDJ/img/logo-1.svg',
   'Just finished working on a new Vue.js component library! 🎉 It''s designed to make building beautiful UIs easier than ever. Check it out and let me know what you think! #vue #components #ui',
   'showcase',
   ARRAY['vue', 'components', 'ui'],
   15,
   3,
-  '{"name": "vue-component-library", "description": "A beautiful Vue.js component library for modern web applications", "url": "https://github.com/orangopus/vue-component-library", "stars": 23, "forks": 8, "language": "Vue", "last_updated": "2024-01-15T10:00:00Z", "topics": ["vue", "components", "ui", "typescript"]}'
+  '{"name": "vue-component-library", "description": "A beautiful Vue.js component library for modern web applications", "url": "https://github.com/opus/vue-component-library", "stars": 23, "forks": 8, "language": "Vue", "last_updated": "2024-01-15T10:00:00Z", "topics": ["vue", "components", "ui", "typescript"]}'
 ),
 (
   (SELECT id FROM auth.users LIMIT 1),
-  'Jordan@orangopus',
+  'Jordan@opus',
   'https://c.animaapp.com/bX3QfjDJ/img/logo-2.svg',
   'Question for the community: What''s your favorite way to handle state management in large Vue applications? I''m working on a new project and would love to hear your experiences! #vue #state-management #discussion',
   'question',
@@ -173,13 +173,13 @@ INSERT INTO community_posts (user_id, user_name, user_avatar, content, post_type
 ),
 (
   (SELECT id FROM auth.users LIMIT 1),
-  'Rim@orangopus',
+  'Rim@opus',
   'https://c.animaapp.com/bX3QfjDJ/img/logo.svg',
   'Showcasing my latest project: A real-time collaboration tool built with WebSockets and Vue 3! Features include live editing, user presence, and conflict resolution. #showcase #websockets #collaboration',
   'showcase',
   ARRAY['showcase', 'websockets', 'collaboration'],
   32,
   7,
-  '{"name": "real-time-collab", "description": "Real-time collaboration tool with WebSocket support", "url": "https://github.com/orangopus/real-time-collab", "stars": 45, "forks": 12, "language": "JavaScript", "last_updated": "2024-01-14T15:30:00Z", "topics": ["websockets", "collaboration", "vue", "realtime"]}'
+  '{"name": "real-time-collab", "description": "Real-time collaboration tool with WebSocket support", "url": "https://github.com/opus/real-time-collab", "stars": 45, "forks": 12, "language": "JavaScript", "last_updated": "2024-01-14T15:30:00Z", "topics": ["websockets", "collaboration", "vue", "realtime"]}'
 )
 ON CONFLICT DO NOTHING; 

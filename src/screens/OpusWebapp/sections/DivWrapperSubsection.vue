@@ -5,7 +5,7 @@
         <SocialIcons class="social-icons" />
         <div class="text-wrapper-12">Join Our Discord</div>
       </div>
-      <div class="text-wrapper-13">The Humans Behind Orangopus</div>
+      <div class="text-wrapper-13">The Humans Behind Opus</div>
       <p class="text-wrapper-14">
         Designers. Developers. Dreamers. These are the people shaping the
         galaxy with us.
@@ -18,21 +18,21 @@
           <div class="text-wrapper-16">Founder</div>
         </div>
         <div class="frame-18">
-          <div class="text-wrapper-15">Ellie@orangopus</div>
+          <div class="text-wrapper-15">Ellie@opus</div>
           <div class="text-wrapper-17">Team</div>
         </div>
         <div class="frame-18">
-          <div class="text-wrapper-15">Jordan@orangopus</div>
+          <div class="text-wrapper-15">Jordan@opus</div>
           <div class="text-wrapper-17">Team</div>
         </div>
       </div>
       <div class="frame-17">
         <div class="frame-18">
-          <div class="text-wrapper-15">Rim@orangopus</div>
+          <div class="text-wrapper-15">Rim@opus</div>
           <div class="text-wrapper-17">Team</div>
         </div>
         <div class="frame-18">
-          <div class="text-wrapper-15">Tortle@orangopus</div>
+          <div class="text-wrapper-15">Tortle@opus</div>
           <div class="text-wrapper-17">Team</div>
         </div>
         <div class="frame-18">

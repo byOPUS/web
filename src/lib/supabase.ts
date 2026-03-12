@@ -1,8 +1,11 @@
 import { createClient } from '@supabase/supabase-js'
 
-const supabaseUrl = process.env.VUE_APP_SUPABASE_URL
-const supabaseAnonKey = process.env.VUE_APP_SUPABASE_ANON_KEY
-if (!supabaseUrl || !supabaseAnonKey) throw new Error('Missing Supabase environment variables')
+const supabaseUrl = process.env.VUE_APP_SUPABASE_URL || 'https://dummy-project.supabase.co'
+const supabaseAnonKey = process.env.VUE_APP_SUPABASE_ANON_KEY || 'dummy-anon-key'
+
+if (!process.env.VUE_APP_SUPABASE_URL) {
+  console.warn('Missing Supabase environment variables. Using dummy credentials. Please create a .env file.');
+}
 
 export const supabase = createClient(supabaseUrl, supabaseAnonKey)
 
