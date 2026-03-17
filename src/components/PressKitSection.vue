@@ -70,7 +70,7 @@ export default defineComponent({
 .press-kit-background {
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
-  background-image: radial-gradient(circle at 15% 85%, rgba(255, 85, 0, 0.1), transparent 30%);
+  background-image: radial-gradient(circle at 15% 85%, rgba(255, 145, 60, 0.1), transparent 30%);
   z-index: 1;
 }
 .press-kit-content {
@@ -93,7 +93,7 @@ export default defineComponent({
   margin: 0 auto 60px auto;
 }
 .press-email {
-  color: #ff5500;
+  color: #ff913c;
   text-decoration: none;
   transition: color 0.3s;
 }
@@ -116,10 +116,10 @@ export default defineComponent({
 .kit-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-  border-color: rgba(255, 85, 0, 0.3);
+  border-color: rgba(255, 145, 60, 0.3);
 }
 .card-icon {
-  color: #ff5500;
+  color: #ff913c;
   width: 40px;
   height: 40px;
   margin-bottom: 20px;
@@ -140,8 +140,8 @@ export default defineComponent({
   gap: 15px;
 }
 .download-button {
-  background: rgba(255, 85, 0, 0.2);
-  color: #ff5500;
+  background: rgba(255, 145, 60, 0.2);
+  color: #ff913c;
   padding: 10px 20px;
   border-radius: 8px;
   text-decoration: none;
@@ -149,9 +149,10 @@ export default defineComponent({
   transition: all 0.3s;
 }
 .download-button:hover {
-  background: #ff5500;
+  background: #ff913c;
   color: #fff;
 }
+
 .facts-list {
   list-style: none;
   padding: 0;

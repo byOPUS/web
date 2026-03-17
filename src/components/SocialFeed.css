@@ -22,7 +22,7 @@
 }
 
 .stat-number {
-  color: #ff5500;
+  color: #ff913c;
   font-family: "Manrope", Helvetica;
   font-size: 32px;
   font-weight: 700;
@@ -77,9 +77,9 @@
 }
 
 .type-btn.active {
-  background: rgba(255, 85, 0, 0.2);
-  border-color: rgba(255, 85, 0, 0.4);
-  color: #ff5500;
+  background: rgba(255, 145, 60, 0.2);
+  border-color: rgba(255, 145, 60, 0.4);
+  color: #ff913c;
 }
 
 /* GitHub Repository Selector */
@@ -111,7 +111,7 @@
 
 .repo-select:focus {
   outline: none;
-  border-color: rgba(255, 85, 0, 0.5);
+  border-color: rgba(255, 145, 60, 0.5);
   background: rgba(255, 255, 255, 0.15);
 }
 
@@ -122,8 +122,8 @@
 
 /* Post Type Badge */
 .post-type {
-  background: rgba(255, 85, 0, 0.2);
-  color: #ff5500;
+  background: rgba(255, 145, 60, 0.2);
+  color: #ff913c;
   font-family: "Manrope", Helvetica;
   font-size: 10px;
   font-weight: 600;
@@ -136,12 +136,12 @@
 
 /* Liked State */
 .action-btn.liked {
-  background: rgba(255, 85, 0, 0.2);
-  border-color: rgba(255, 85, 0, 0.4);
+  background: rgba(255, 145, 60, 0.2);
+  border-color: rgba(255, 145, 60, 0.4);
 }
 
 .action-btn.liked .action-icon {
-  color: #ff5500;
+  color: #ff913c;
 }
 
 /* Repository Topics */
@@ -153,14 +153,14 @@
 }
 
 .topic-tag {
-  background: rgba(255, 85, 0, 0.1);
-  color: #ff5500;
+  background: rgba(255, 145, 60, 0.1);
+  color: #ff913c;
   font-family: "Manrope", Helvetica;
   font-size: 10px;
   font-weight: 500;
   padding: 4px 8px;
   border-radius: 12px;
-  border: 1px solid rgba(255, 85, 0, 0.2);
+  border: 1px solid rgba(255, 145, 60, 0.2);
 }
 
 /* Clickable Tags */
@@ -170,8 +170,8 @@
 }
 
 .tag:hover {
-  background: rgba(255, 85, 0, 0.2);
-  border-color: rgba(255, 85, 0, 0.4);
+  background: rgba(255, 145, 60, 0.2);
+  border-color: rgba(255, 145, 60, 0.4);
   transform: translateY(-1px);
 }
 
@@ -183,7 +183,7 @@
 
 /* Light Theme Styles */
 .light-theme .stat-number {
-  color: #ff5500;
+  color: #ff913c;
 }
 
 .light-theme .stat-label {
@@ -202,9 +202,9 @@
 }
 
 .light-theme .type-btn.active {
-  background: #ff5500;
+  background: #ff913c;
   color: #ffffff;
-  border-color: #ff5500;
+  border-color: #ff913c;
 }
 
 .light-theme .repo-select {
@@ -215,7 +215,7 @@
 
 .light-theme .repo-select:focus {
   background: rgba(255, 255, 255, 1);
-  border-color: #ff5500;
+  border-color: #ff913c;
 }
 
 .light-theme .repo-select option {
@@ -224,20 +224,21 @@
 }
 
 .light-theme .post-type {
-  background: #ff5500;
+  background: #ff913c;
   color: #ffffff;
 }
 
 .light-theme .topic-tag {
-  background: rgba(255, 85, 0, 0.1);
-  color: #ff5500;
-  border: 1px solid rgba(255, 85, 0, 0.2);
+  background: rgba(255, 145, 60, 0.1);
+  color: #ff913c;
+  border: 1px solid rgba(255, 145, 60, 0.2);
 }
 
 .light-theme .tag:hover {
-  background: rgba(255, 85, 0, 0.2);
-  border-color: rgba(255, 85, 0, 0.4);
+  background: rgba(255, 145, 60, 0.2);
+  border-color: rgba(255, 145, 60, 0.4);
 }
+
 
 /* Responsive Design */
 @media (max-width: 768px) {

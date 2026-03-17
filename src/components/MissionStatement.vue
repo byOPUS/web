@@ -68,9 +68,9 @@ export default defineComponent({
   width: 100%;
   height: 100%;
   background-image: 
-    radial-gradient(2px 2px at 20% 30%, rgba(255, 85, 0, 0.2), transparent),
+    radial-gradient(2px 2px at 20% 30%, rgba(255, 145, 60, 0.2), transparent),
     radial-gradient(1px 1px at 60% 70%, rgba(255, 255, 255, 0.1), transparent),
-    radial-gradient(3px 3px at 80% 20%, rgba(255, 85, 0, 0.15), transparent),
+    radial-gradient(3px 3px at 80% 20%, rgba(255, 145, 60, 0.15), transparent),
     radial-gradient(1px 1px at 40% 80%, rgba(255, 255, 255, 0.08), transparent);
   background-size: 400px 400px, 300px 300px, 500px 500px, 200px 200px;
   animation: mission-float 25s ease-in-out infinite;
@@ -108,7 +108,7 @@ export default defineComponent({
 }
 
 .highlight {
-  background: linear-gradient(135deg, #ff5500 0%, #ff7a00 100%);
+  background: linear-gradient(135deg, #ff913c 0%, #ffaf57 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -123,10 +123,11 @@ export default defineComponent({
   left: 0;
   right: 0;
   height: 2px;
-  background: linear-gradient(90deg, transparent, #ff5500, transparent);
+  background: linear-gradient(90deg, transparent, #ff913c, transparent);
   opacity: 0;
   transition: opacity 0.3s ease;
 }
+
 
 .mission-text.animate-in .highlight::after {
   opacity: 1;

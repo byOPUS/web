@@ -531,7 +531,7 @@ export default defineComponent({
 }
 
 .stat-card:hover {
-  border-color: rgba(255, 85, 0, 0.3);
+  border-color: rgba(255, 145, 60, 0.3);
   transform: translateY(-2px);
 }
 
@@ -542,7 +542,7 @@ export default defineComponent({
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, #ff5500 0%, #ff7a00 100%);
+  background: linear-gradient(135deg, #ff913c 0%, #ffaf57 100%);
   border-radius: 12px;
 }
 
@@ -596,7 +596,7 @@ export default defineComponent({
 }
 
 .action-card:hover {
-  border-color: rgba(255, 85, 0, 0.3);
+  border-color: rgba(255, 145, 60, 0.3);
   transform: translateY(-4px);
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
 }
@@ -643,7 +643,7 @@ export default defineComponent({
 .view-all-button {
   background: none;
   border: none;
-  color: #ff5500;
+  color: #ff913c;
   font-family: "Manrope", Helvetica;
   font-size: 14px;
   font-weight: 500;
@@ -655,7 +655,7 @@ export default defineComponent({
 }
 
 .view-all-button:hover {
-  color: #ff7a00;
+  color: #ffaf57;
 }
 
 .view-all-button svg {
@@ -672,7 +672,7 @@ export default defineComponent({
   width: 40px;
   height: 40px;
   border: 3px solid rgba(255, 255, 255, 0.3);
-  border-top: 3px solid #ff5500;
+  border-top: 3px solid #ff913c;
   border-radius: 50%;
   animation: spin 1s linear infinite;
   margin: 0 auto 16px;
@@ -709,7 +709,7 @@ export default defineComponent({
 }
 
 .create-button {
-  background: linear-gradient(135deg, #ff5500 0%, #ff7a00 100%);
+  background: linear-gradient(135deg, #ff913c 0%, #ffaf57 100%);
   color: #ffffff;
   border: none;
   border-radius: 8px;
@@ -723,11 +723,11 @@ export default defineComponent({
 
 .create-button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(255, 85, 0, 0.3);
+  box-shadow: 0 8px 25px rgba(255, 145, 60, 0.3);
 }
 
 .import-button {
-  background: linear-gradient(135deg, #ff5500 0%, #ff7a00 100%);
+  background: linear-gradient(135deg, #ff913c 0%, #ffaf57 100%);
   color: #ffffff;
   border: none;
   border-radius: 8px;
@@ -741,7 +741,7 @@ export default defineComponent({
 
 .import-button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(255, 85, 0, 0.3);
+  box-shadow: 0 8px 25px rgba(255, 145, 60, 0.3);
 }
 
 .projects-grid {
@@ -760,10 +760,11 @@ export default defineComponent({
 }
 
 .project-card:hover {
-  border-color: rgba(255, 85, 0, 0.3);
+  border-color: rgba(255, 145, 60, 0.3);
   transform: translateY(-4px);
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
 }
+
 
 .project-image {
   position: relative;
@@ -826,6 +827,7 @@ export default defineComponent({
   line-height: 1.5;
   display: -webkit-box;
   -webkit-line-clamp: 2;
+  line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
@@ -851,7 +853,7 @@ export default defineComponent({
 .project-category {
   font-family: "Manrope", Helvetica;
   font-size: 12px;
-  color: #ff5500;
+  color: #ff913c;
   font-weight: 500;
 }
 
@@ -862,8 +864,8 @@ export default defineComponent({
 }
 
 .tech-tag {
-  background: rgba(255, 85, 0, 0.1);
-  color: #ff5500;
+  background: rgba(255, 145, 60, 0.1);
+  color: #ff913c;
   padding: 4px 8px;
   border-radius: 12px;
   font-family: "Manrope", Helvetica;
@@ -916,7 +918,7 @@ export default defineComponent({
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(255, 85, 0, 0.1);
+  background: rgba(255, 145, 60, 0.1);
   border-radius: 50%;
   font-size: 18px;
   flex-shrink: 0;
@@ -1037,8 +1039,8 @@ export default defineComponent({
 .form-group textarea:focus,
 .form-group select:focus {
   outline: none;
-  border-color: #ff5500;
-  background: rgba(255, 85, 0, 0.05);
+  border-color: #ff913c;
+  background: rgba(255, 145, 60, 0.05);
 }
 
 .form-group input::placeholder,
@@ -1178,8 +1180,8 @@ export default defineComponent({
 
 .light-theme .stat-card:hover {
   background: rgba(255, 255, 255, 1);
-  border-color: rgba(255, 85, 0, 0.3);
-  box-shadow: 0 8px 30px rgba(255, 85, 0, 0.2);
+  border-color: rgba(255, 145, 60, 0.3);
+  box-shadow: 0 8px 30px rgba(255, 145, 60, 0.2);
 }
 
 .light-theme .stat-number {
@@ -1202,8 +1204,8 @@ export default defineComponent({
 
 .light-theme .action-card:hover {
   background: rgba(255, 255, 255, 1);
-  border-color: rgba(255, 85, 0, 0.3);
-  box-shadow: 0 8px 30px rgba(255, 85, 0, 0.2);
+  border-color: rgba(255, 145, 60, 0.3);
+  box-shadow: 0 8px 30px rgba(255, 145, 60, 0.2);
 }
 
 .light-theme .action-card h3 {
@@ -1226,7 +1228,7 @@ export default defineComponent({
 
 .light-theme .view-all-button:hover {
   background: rgba(255, 255, 255, 1);
-  border-color: rgba(255, 85, 0, 0.3);
+  border-color: rgba(255, 145, 60, 0.3);
 }
 
 .light-theme .project-card {
@@ -1237,8 +1239,8 @@ export default defineComponent({
 
 .light-theme .project-card:hover {
   background: rgba(255, 255, 255, 1);
-  border-color: rgba(255, 85, 0, 0.3);
-  box-shadow: 0 8px 30px rgba(255, 85, 0, 0.2);
+  border-color: rgba(255, 145, 60, 0.3);
+  box-shadow: 0 8px 30px rgba(255, 145, 60, 0.2);
 }
 
 .light-theme .project-info h3 {
@@ -1254,9 +1256,9 @@ export default defineComponent({
 }
 
 .light-theme .tech-tag {
-  background: rgba(255, 85, 0, 0.1);
-  color: #ff5500;
-  border: 1px solid rgba(255, 85, 0, 0.2);
+  background: rgba(255, 145, 60, 0.1);
+  color: #ff913c;
+  border: 1px solid rgba(255, 145, 60, 0.2);
 }
 
 .light-theme .activity-feed h2 {
@@ -1290,7 +1292,7 @@ export default defineComponent({
 .light-theme .create-button:hover,
 .light-theme .import-button:hover {
   background: rgba(255, 255, 255, 1);
-  border-color: rgba(255, 85, 0, 0.3);
+  border-color: rgba(255, 145, 60, 0.3);
 }
 
 .light-theme .modal {

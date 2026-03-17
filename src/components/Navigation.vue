@@ -2,7 +2,8 @@
   <nav class="navigation" :class="{ 'scrolled': isScrolled }">
     <div class="nav-content">
       <div class="nav-brand">
-        <img src="logo.svg" alt="Opus" class="nav-logo" />
+                <img src="https://canny-assets.io/icons/4337ffcf7d94aaf9b2fbb60ca10ca2fe.png" alt="Opus" class="nav-logo" />
+
       </div>
       
       <div class="nav-links">
@@ -274,12 +275,12 @@ export default defineComponent({
 .nav-logo {
   height: 32px;
   width: auto;
-  filter: drop-shadow(0 0 10px rgba(255, 85, 0, 0.3));
+  filter: drop-shadow(0 0 10px rgba(255, 145, 60, 0.3));
   transition: all 0.3s ease;
 }
 
 .nav-brand:hover .nav-logo {
-  filter: drop-shadow(0 0 15px rgba(255, 85, 0, 0.5));
+  filter: drop-shadow(0 0 15px rgba(255, 145, 60, 0.5));
   transform: scale(1.05);
 }
 
@@ -304,7 +305,7 @@ export default defineComponent({
 }
 
 .nav-link.active {
-  color: #ff5500;
+  color: #ff913c;
 }
 
 .nav-link.active::after {
@@ -315,7 +316,7 @@ export default defineComponent({
   transform: translateX(-50%);
   width: 20px;
   height: 2px;
-  background: linear-gradient(135deg, #ff5500 0%, #ff7a00 100%);
+  background: linear-gradient(135deg, #ff913c 0%, #ffaf57 100%);
   border-radius: 1px;
 }
 
@@ -343,7 +344,7 @@ export default defineComponent({
 }
 
 .scroll-top {
-  background: linear-gradient(135deg, #ff5500 0%, #ff7a00 100%);
+  background: linear-gradient(135deg, #ff913c 0%, #ffaf57 100%);
   border: none;
   border-radius: 8px;
   padding: 8px 12px;
@@ -363,7 +364,7 @@ export default defineComponent({
 
 .scroll-top:hover {
   transform: translateY(-2px);
-  box-shadow: 0 4px 15px rgba(255, 85, 0, 0.3);
+  box-shadow: 0 4px 15px rgba(255, 145, 60, 0.3);
 }
 
 .scroll-icon {
@@ -403,14 +404,14 @@ export default defineComponent({
 }
 
 .auth-button.signup {
-  background: linear-gradient(135deg, #ff5500 0%, #ff7a00 100%);
+  background: linear-gradient(135deg, #ff913c 0%, #ffaf57 100%);
   color: #ffffff;
-  box-shadow: 0 4px 15px rgba(255, 85, 0, 0.3);
+  box-shadow: 0 4px 15px rgba(255, 145, 60, 0.3);
 }
 
 .auth-button.signup:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(255, 85, 0, 0.4);
+  box-shadow: 0 6px 20px rgba(255, 145, 60, 0.4);
 }
 
 /* User Profile */
@@ -428,12 +429,12 @@ export default defineComponent({
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  border: 2px solid rgba(255, 85, 0, 0.3);
+  border: 2px solid rgba(255, 145, 60, 0.3);
   transition: all 0.3s ease;
 }
 
 .user-avatar:hover img {
-  border-color: rgba(255, 85, 0, 0.6);
+  border-color: rgba(255, 145, 60, 0.6);
   transform: scale(1.05);
 }
 
@@ -489,7 +490,7 @@ export default defineComponent({
   width: 48px;
   height: 48px;
   border-radius: 50%;
-  border: 2px solid rgba(255, 85, 0, 0.3);
+  border: 2px solid rgba(255, 145, 60, 0.3);
 }
 
 .user-details h4 {
@@ -617,7 +618,7 @@ export default defineComponent({
 }
 
 .light-theme .nav-link.active {
-  color: #ff5500;
+  color: #ff913c;
 }
 
 .light-theme .theme-toggle {
@@ -645,14 +646,14 @@ export default defineComponent({
 }
 
 .light-theme .auth-button.signup {
-  background: #ff5500;
+  background: #ff913c;
   color: #ffffff;
-  border-color: #ff5500;
+  border-color: #ff913c;
 }
 
 .light-theme .auth-button.signup:hover {
-  background: #e64a00;
-  border-color: #e64a00;
+  background: #e67d2b;
+  border-color: #e67d2b;
 }
 
 .light-theme .user-menu {
@@ -691,6 +692,7 @@ export default defineComponent({
 }
 
 .light-theme .nav-logo {
-  filter: drop-shadow(0 0 0 #ff5500) brightness(0) saturate(100%) invert(54%) sepia(97%) saturate(7492%) hue-rotate(1deg) brightness(101%) contrast(104%) !important;
+  filter: drop-shadow(0 0 0 #ff913c) brightness(0) saturate(100%) invert(71%) sepia(35%) saturate(1966%) hue-rotate(338deg) brightness(101%) contrast(101%) !important;
 }
+
 </style> 

@@ -265,7 +265,7 @@ export default defineComponent({
   height: 120px;
   border-radius: 50%;
   overflow: hidden;
-  border: 3px solid rgba(255, 85, 0, 0.3);
+  border: 3px solid rgba(255, 145, 60, 0.3);
 }
 
 .profile-avatar img {
@@ -278,7 +278,7 @@ export default defineComponent({
   position: absolute;
   bottom: 0;
   right: 0;
-  background: linear-gradient(135deg, #ff5500 0%, #ff7a00 100%);
+  background: linear-gradient(135deg, #ff913c 0%, #ffaf57 100%);
   border: none;
   border-radius: 50%;
   width: 36px;
@@ -378,14 +378,15 @@ export default defineComponent({
 .form-group input:focus,
 .form-group textarea:focus {
   outline: none;
-  border-color: #ff5500;
-  background: rgba(255, 85, 0, 0.05);
+  border-color: #ff913c;
+  background: rgba(255, 145, 60, 0.05);
 }
 
 .form-group input:disabled,
 .form-group textarea:disabled {
   opacity: 0.5;
   cursor: not-allowed;
+  transform: none;
 }
 
 .form-group input::placeholder,
@@ -394,7 +395,7 @@ export default defineComponent({
 }
 
 .save-button {
-  background: linear-gradient(135deg, #ff5500 0%, #ff7a00 100%);
+  background: linear-gradient(135deg, #ff913c 0%, #ffaf57 100%);
   color: #ffffff;
   border: none;
   border-radius: 8px;
@@ -413,7 +414,7 @@ export default defineComponent({
 
 .save-button:hover:not(:disabled) {
   transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(255, 85, 0, 0.3);
+  box-shadow: 0 8px 25px rgba(255, 145, 60, 0.3);
 }
 
 .save-button:disabled {
@@ -421,6 +422,7 @@ export default defineComponent({
   cursor: not-allowed;
   transform: none;
 }
+
 
 .loading-spinner {
   width: 16px;
@@ -507,7 +509,7 @@ export default defineComponent({
 }
 
 input:checked + .slider {
-  background: linear-gradient(135deg, #ff5500 0%, #ff7a00 100%);
+  background: linear-gradient(135deg, #ff913c 0%, #ffaf57 100%);
 }
 
 input:checked + .slider:before {
@@ -693,7 +695,7 @@ input:checked + .slider:before {
 .light-theme .profile-form input:focus,
 .light-theme .profile-form textarea:focus {
   background: rgba(255, 255, 255, 1);
-  border-color: #ff5500;
+  border-color: #ff913c;
 }
 
 .light-theme .profile-form input::placeholder,
@@ -702,14 +704,14 @@ input:checked + .slider:before {
 }
 
 .light-theme .save-button {
-  background: #ff5500;
+  background: #ff913c;
   color: #ffffff;
-  border-color: #ff5500;
+  border-color: #ff913c;
 }
 
 .light-theme .save-button:hover {
-  background: #e64a00;
-  border-color: #e64a00;
+  background: #e67d2b;
+  border-color: #e67d2b;
 }
 
 .light-theme .setting-item {
@@ -737,7 +739,7 @@ input:checked + .slider:before {
 }
 
 .light-theme input:checked + .slider {
-  background-color: #ff5500;
+  background-color: #ff913c;
 }
 
 .light-theme .danger-info h4 {

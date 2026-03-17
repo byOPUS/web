@@ -388,9 +388,9 @@ export default defineComponent({
   width: 100%;
   height: 100%;
   background-image: 
-    radial-gradient(1px 1px at 30% 40%, rgba(255, 85, 0, 0.2), transparent),
+    radial-gradient(1px 1px at 30% 40%, rgba(255, 145, 60, 0.2), transparent),
     radial-gradient(1px 1px at 70% 60%, rgba(255, 255, 255, 0.1), transparent),
-    radial-gradient(2px 2px at 50% 20%, rgba(255, 85, 0, 0.15), transparent);
+    radial-gradient(2px 2px at 50% 20%, rgba(255, 145, 60, 0.15), transparent);
   background-size: 350px 350px, 250px 250px, 400px 400px;
   animation: integration-float 30s ease-in-out infinite;
 }
@@ -417,7 +417,7 @@ export default defineComponent({
   line-height: 1.3;
   text-align: center;
   margin: 0 0 20px 0;
-  background: linear-gradient(135deg, #ffffff 0%, #ff5500 100%);
+  background: linear-gradient(135deg, #ffffff 0%, #ff913c 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -473,8 +473,8 @@ export default defineComponent({
 }
 
 .status-card.connected {
-  border-color: rgba(255, 85, 0, 0.3);
-  background: rgba(255, 85, 0, 0.05);
+  border-color: rgba(255, 145, 60, 0.3);
+  background: rgba(255, 145, 60, 0.05);
 }
 
 .status-icon {
@@ -490,8 +490,8 @@ export default defineComponent({
 }
 
 .status-card.connected .status-icon {
-  background: rgba(255, 85, 0, 0.2);
-  color: #ff5500;
+  background: rgba(255, 145, 60, 0.2);
+  color: #ff913c;
 }
 
 .check-icon, .github-icon {
@@ -519,7 +519,7 @@ export default defineComponent({
 }
 
 .connect-btn {
-  background: linear-gradient(135deg, #ff5500 0%, #ff7a00 100%);
+  background: linear-gradient(135deg, #ff913c 0%, #ffaf57 100%);
   border: none;
   border-radius: 12px;
   padding: 15px 30px;
@@ -533,7 +533,7 @@ export default defineComponent({
 
 .connect-btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(255, 85, 0, 0.3);
+  box-shadow: 0 8px 25px rgba(255, 145, 60, 0.3);
 }
 
 .connect-btn.connected {
@@ -570,7 +570,7 @@ export default defineComponent({
 
 .stat-card:hover {
   background: rgba(255, 255, 255, 0.08);
-  border-color: rgba(255, 85, 0, 0.2);
+  border-color: rgba(255, 145, 60, 0.2);
   transform: translateY(-2px);
 }
 
@@ -578,7 +578,7 @@ export default defineComponent({
   font-size: 24px;
   width: 50px;
   height: 50px;
-  background: rgba(255, 85, 0, 0.2);
+  background: rgba(255, 145, 60, 0.2);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -653,9 +653,9 @@ export default defineComponent({
 }
 
 .filter-btn.active {
-  background: rgba(255, 85, 0, 0.2);
-  border-color: rgba(255, 85, 0, 0.4);
-  color: #ff5500;
+  background: rgba(255, 145, 60, 0.2);
+  border-color: rgba(255, 145, 60, 0.4);
+  color: #ff913c;
 }
 
 .repositories-grid {
@@ -676,9 +676,9 @@ export default defineComponent({
 
 .repo-card:hover {
   background: rgba(255, 255, 255, 0.08);
-  border-color: rgba(255, 85, 0, 0.2);
+  border-color: rgba(255, 145, 60, 0.2);
   transform: translateY(-3px);
-  box-shadow: 0 10px 30px rgba(255, 85, 0, 0.1);
+  box-shadow: 0 10px 30px rgba(255, 145, 60, 0.1);
 }
 
 .repo-header {
@@ -739,8 +739,8 @@ export default defineComponent({
 }
 
 .repo-language {
-  background: rgba(255, 85, 0, 0.2);
-  color: #ff5500;
+  background: rgba(255, 145, 60, 0.2);
+  color: #ff913c;
   padding: 4px 12px;
   border-radius: 12px;
   font-size: 12px;
@@ -777,9 +777,10 @@ export default defineComponent({
 }
 
 .view-btn:hover {
-  background: rgba(255, 85, 0, 0.2);
-  border-color: rgba(255, 85, 0, 0.4);
+  background: rgba(255, 145, 60, 0.2);
+  border-color: rgba(255, 145, 60, 0.4);
 }
+
 
 .share-btn:hover {
   background: rgba(0, 255, 0, 0.2);

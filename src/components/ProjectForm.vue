@@ -383,9 +383,9 @@ export default defineComponent({
 .form-group textarea:focus,
 .form-group select:focus {
   outline: none;
-  border-color: #ff5500;
-  background: rgba(255, 85, 0, 0.05);
-  box-shadow: 0 0 0 4px rgba(255, 85, 0, 0.1);
+  border-color: #ff913c;
+  background: rgba(255, 145, 60, 0.05);
+  box-shadow: 0 0 0 4px rgba(255, 145, 60, 0.1);
 }
 
 .form-group input:disabled,
@@ -420,11 +420,11 @@ export default defineComponent({
 }
 
 .technology-tag {
-  background: rgba(255, 85, 0, 0.2);
-  border: 1px solid rgba(255, 85, 0, 0.3);
+  background: rgba(255, 145, 60, 0.2);
+  border: 1px solid rgba(255, 145, 60, 0.3);
   border-radius: 20px;
   padding: 6px 12px;
-  color: #ff5500;
+  color: #ff913c;
   font-family: "Manrope", Helvetica;
   font-size: 14px;
   font-weight: 500;
@@ -436,7 +436,7 @@ export default defineComponent({
 .remove-tech {
   background: none;
   border: none;
-  color: #ff5500;
+  color: #ff913c;
   cursor: pointer;
   font-size: 16px;
   font-weight: bold;
@@ -451,7 +451,7 @@ export default defineComponent({
 }
 
 .remove-tech:hover {
-  background: rgba(255, 85, 0, 0.3);
+  background: rgba(255, 145, 60, 0.3);
   color: #ffffff;
 }
 
@@ -465,7 +465,7 @@ export default defineComponent({
 }
 
 .add-tech-btn {
-  background: linear-gradient(135deg, #ff5500 0%, #ff7a00 100%);
+  background: linear-gradient(135deg, #ff913c 0%, #ffaf57 100%);
   color: #ffffff;
   border: none;
   border-radius: 8px;
@@ -480,7 +480,7 @@ export default defineComponent({
 
 .add-tech-btn:hover:not(:disabled) {
   transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(255, 85, 0, 0.3);
+  box-shadow: 0 8px 20px rgba(255, 145, 60, 0.3);
 }
 
 .add-tech-btn:disabled {
@@ -526,7 +526,7 @@ export default defineComponent({
 }
 
 .submit-button {
-  background: linear-gradient(135deg, #ff5500 0%, #ff7a00 100%);
+  background: linear-gradient(135deg, #ff913c 0%, #ffaf57 100%);
   color: #ffffff;
   border: none;
   border-radius: 12px;
@@ -543,8 +543,9 @@ export default defineComponent({
 
 .submit-button:hover:not(:disabled) {
   transform: translateY(-2px);
-  box-shadow: 0 12px 30px rgba(255, 85, 0, 0.4);
+  box-shadow: 0 12px 30px rgba(255, 145, 60, 0.4);
 }
+
 
 .submit-button:disabled {
   opacity: 0.6;

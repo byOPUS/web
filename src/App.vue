@@ -53,23 +53,23 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(255, 85, 0, 0.5);
+  background: rgba(255, 145, 60, 0.5);
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(255, 85, 0, 0.7);
+  background: rgba(255, 145, 60, 0.7);
 }
 
 /* Selection styles */
 ::selection {
-  background: rgba(255, 85, 0, 0.3);
+  background: rgba(255, 145, 60, 0.3);
   color: #ffffff;
 }
 
 /* Focus styles */
 *:focus {
-  outline: 2px solid rgba(255, 85, 0, 0.5);
+  outline: 2px solid rgba(255, 145, 60, 0.5);
   outline-offset: 2px;
 }
 
@@ -128,7 +128,7 @@ html {
   width: 40px;
   height: 40px;
   border: 3px solid rgba(255, 255, 255, 0.1);
-  border-top: 3px solid #ff5500;
+  border-top: 3px solid #ff913c;
   border-radius: 50%;
   animation: spin 1s linear infinite;
 }
@@ -155,14 +155,14 @@ html {
 }
 
 .btn-primary {
-  background: #ff5500;
+  background: #ff913c;
   color: #ffffff;
-  border-color: #ff5500;
+  border-color: #ff913c;
 }
 
 .btn-primary:hover {
-  background: #e64a00;
-  border-color: #e64a00;
+  background: #e67d2b;
+  border-color: #e67d2b;
 }
 
 .btn-secondary {
@@ -208,7 +208,7 @@ html {
 .form-group textarea:focus,
 .form-group select:focus {
   outline: none;
-  border-color: #ff5500;
+  border-color: #ff913c;
   background: rgba(255, 255, 255, 0.1);
 }
 
@@ -293,7 +293,7 @@ html {
 .light-theme .form-group textarea:focus,
 .light-theme .form-group select:focus {
   background: rgba(255, 255, 255, 1);
-  border-color: #ff5500;
+  border-color: #ff913c;
 }
 
 .light-theme .form-group input::placeholder,
@@ -309,7 +309,7 @@ html {
 
 .light-theme .loading-spinner {
   border: 3px solid rgba(0, 0, 0, 0.1);
-  border-top: 3px solid #ff5500;
+  border-top: 3px solid #ff913c;
 }
 
 .light-theme ::-webkit-scrollbar-track {
@@ -317,7 +317,7 @@ html {
 }
 
 .light-theme ::selection {
-  background: rgba(255, 85, 0, 0.2);
+  background: rgba(255, 145, 60, 0.2);
   color: #212529;
 }
 </style> 

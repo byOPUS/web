@@ -301,7 +301,7 @@ export default defineComponent({
 }
 
 .connect-btn {
-  background: linear-gradient(135deg, #ff5500 0%, #ff7a00 100%);
+  background: linear-gradient(135deg, #ff913c 0%, #ffaf57 100%);
   color: #ffffff;
   border: none;
   border-radius: 8px;
@@ -319,7 +319,7 @@ export default defineComponent({
 
 .connect-btn:hover:not(:disabled) {
   transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(255, 85, 0, 0.3);
+  box-shadow: 0 8px 25px rgba(255, 145, 60, 0.3);
 }
 
 .connect-btn:disabled {
@@ -366,8 +366,8 @@ export default defineComponent({
 }
 
 .filter-btn.active {
-  background: #ff5500;
-  border-color: #ff5500;
+  background: #ff913c;
+  border-color: #ff913c;
   color: #ffffff;
 }
 
@@ -391,14 +391,15 @@ export default defineComponent({
 }
 
 .repo-item:hover {
-  border-color: rgba(255, 85, 0, 0.3);
-  background: rgba(255, 85, 0, 0.05);
+  border-color: rgba(255, 145, 60, 0.3);
+  background: rgba(255, 145, 60, 0.05);
 }
 
 .repo-item.selected {
-  border-color: #ff5500;
-  background: rgba(255, 85, 0, 0.1);
+  border-color: #ff913c;
+  background: rgba(255, 145, 60, 0.1);
 }
+
 
 .repo-info {
   flex: 1;
@@ -491,8 +492,8 @@ export default defineComponent({
 }
 
 .checkbox-wrapper input:checked ~ .checkmark {
-  background: #ff5500;
-  border-color: #ff5500;
+  background: #ff913c;
+  border-color: #ff913c;
 }
 
 .checkmark:after {
@@ -549,7 +550,7 @@ export default defineComponent({
 }
 
 .import-btn {
-  background: linear-gradient(135deg, #ff5500 0%, #ff7a00 100%);
+  background: linear-gradient(135deg, #ff913c 0%, #ffaf57 100%);
   color: #ffffff;
   border: none;
   border-radius: 6px;
@@ -566,7 +567,7 @@ export default defineComponent({
 
 .import-btn:hover:not(:disabled) {
   transform: translateY(-1px);
-  box-shadow: 0 4px 15px rgba(255, 85, 0, 0.3);
+  box-shadow: 0 4px 15px rgba(255, 145, 60, 0.3);
 }
 
 .import-btn:disabled {

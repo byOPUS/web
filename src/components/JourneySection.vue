@@ -89,9 +89,9 @@ export default defineComponent({
   width: 100%;
   height: 100%;
   background: 
-    radial-gradient(ellipse at 30% 40%, rgba(255, 85, 0, 0.08) 0%, transparent 60%),
+    radial-gradient(ellipse at 30% 40%, rgba(255, 145, 60, 0.08) 0%, transparent 60%),
     radial-gradient(ellipse at 70% 60%, rgba(255, 255, 255, 0.03) 0%, transparent 50%),
-    radial-gradient(ellipse at 50% 20%, rgba(255, 85, 0, 0.05) 0%, transparent 40%);
+    radial-gradient(ellipse at 50% 20%, rgba(255, 145, 60, 0.05) 0%, transparent 40%);
   animation: journey-drift 40s ease-in-out infinite;
 }
 
@@ -125,7 +125,7 @@ export default defineComponent({
   letter-spacing: -2px;
   line-height: 1.1;
   margin: 0;
-  background: linear-gradient(135deg, #ffffff 0%, #ff5500 100%);
+  background: linear-gradient(135deg, #ffffff 0%, #ff913c 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -158,7 +158,7 @@ export default defineComponent({
 }
 
 .highlight {
-  background: linear-gradient(135deg, #ff5500 0%, #ff7a00 100%);
+  background: linear-gradient(135deg, #ff913c 0%, #ffaf57 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -173,10 +173,11 @@ export default defineComponent({
   left: 0;
   right: 0;
   height: 2px;
-  background: linear-gradient(90deg, transparent, #ff5500, transparent);
+  background: linear-gradient(90deg, transparent, #ff913c, transparent);
   opacity: 0;
   transition: opacity 0.3s ease;
 }
+
 
 .journey-description.animate-in .highlight::after {
   opacity: 1;

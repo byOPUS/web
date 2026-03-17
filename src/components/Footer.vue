@@ -90,9 +90,9 @@ export default defineComponent({
   width: 100%;
   height: 100%;
   background-image: 
-    radial-gradient(1px 1px at 10% 20%, rgba(255, 85, 0, 0.3), transparent),
+    radial-gradient(1px 1px at 10% 20%, rgba(255, 145, 60, 0.3), transparent),
     radial-gradient(1px 1px at 30% 80%, rgba(255, 255, 255, 0.1), transparent),
-    radial-gradient(2px 2px at 70% 40%, rgba(255, 85, 0, 0.2), transparent),
+    radial-gradient(2px 2px at 70% 40%, rgba(255, 145, 60, 0.2), transparent),
     radial-gradient(1px 1px at 90% 60%, rgba(255, 255, 255, 0.1), transparent);
   background-size: 300px 300px, 200px 200px, 400px 400px, 250px 250px;
   animation: footer-float 15s ease-in-out infinite;
@@ -126,7 +126,7 @@ export default defineComponent({
 .logo {
   height: 30px;
   width: auto;
-  filter: drop-shadow(0 0 20px rgba(255, 85, 0, 0.3));
+  filter: drop-shadow(0 0 20px rgba(255, 145, 60, 0.3));
 }
 
 .brand-description {
@@ -168,7 +168,7 @@ export default defineComponent({
 }
 
 .footer-link:hover {
-  color: #ff5500;
+  color: #ff913c;
   transform: translateX(5px);
 }
 
@@ -179,7 +179,7 @@ export default defineComponent({
   top: 50%;
   width: 0;
   height: 2px;
-  background: linear-gradient(90deg, #ff5500, transparent);
+  background: linear-gradient(90deg, #ff913c, transparent);
   transition: width 0.3s ease;
   transform: translateY(-50%);
 }
@@ -224,10 +224,10 @@ export default defineComponent({
 }
 
 .social-icon:hover {
-  background: rgba(255, 85, 0, 0.2);
-  border-color: rgba(255, 85, 0, 0.4);
+  background: rgba(255, 145, 60, 0.2);
+  border-color: rgba(255, 145, 60, 0.4);
   transform: translateY(-3px);
-  box-shadow: 0 10px 30px rgba(255, 85, 0, 0.3);
+  box-shadow: 0 10px 30px rgba(255, 145, 60, 0.3);
 }
 
 .social-icon img {
@@ -249,7 +249,7 @@ export default defineComponent({
   left: 0;
   right: 0;
   bottom: 0;
-  background: radial-gradient(circle, rgba(255, 85, 0, 0.3) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(255, 145, 60, 0.3) 0%, transparent 70%);
   opacity: 0;
   transition: opacity 0.3s ease;
 }
@@ -257,6 +257,7 @@ export default defineComponent({
 .social-icon:hover .icon-glow {
   opacity: 1;
 }
+
 
 @media (max-width: 768px) {
   .footer {
@@ -297,6 +298,6 @@ export default defineComponent({
 
 /* Light theme styles */
 .light-theme .footer-brand .logo {
-  filter: drop-shadow(0 0 0 #ff5500) brightness(0) saturate(100%) invert(54%) sepia(97%) saturate(7492%) hue-rotate(1deg) brightness(101%) contrast(104%) !important;
+  filter: drop-shadow(0 0 0 #ff913c) brightness(0) saturate(100%) invert(67%) sepia(88%) saturate(740%) hue-rotate(330deg) brightness(101%) contrast(104%) !important;
 }
 </style>

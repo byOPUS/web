@@ -53,7 +53,7 @@
               <button 
                 v-for="type in postTypes" 
                 :key="type.value"
-                @click="newPost.post_type = type.value"
+                @click="newPost.post_type = (type.value as any)"
                 class="type-btn"
                 :class="{ 'active': newPost.post_type === type.value }"
               >
@@ -533,9 +533,9 @@ export default defineComponent({
   width: 100%;
   height: 100%;
   background-image: 
-    radial-gradient(1px 1px at 20% 30%, rgba(255, 85, 0, 0.2), transparent),
+    radial-gradient(1px 1px at 20% 30%, rgba(255, 145, 60, 0.2), transparent),
     radial-gradient(1px 1px at 60% 70%, rgba(255, 255, 255, 0.1), transparent),
-    radial-gradient(2px 2px at 80% 20%, rgba(255, 85, 0, 0.15), transparent);
+    radial-gradient(2px 2px at 80% 20%, rgba(255, 145, 60, 0.15), transparent);
   background-size: 300px 300px, 200px 200px, 400px 400px;
   animation: feed-float 25s ease-in-out infinite;
 }
@@ -562,7 +562,7 @@ export default defineComponent({
   line-height: 1.3;
   text-align: center;
   margin: 0 0 20px 0;
-  background: linear-gradient(135deg, #ffffff 0%, #ff5500 100%);
+  background: linear-gradient(135deg, #ffffff 0%, #ff913c 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -621,7 +621,7 @@ export default defineComponent({
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  border: 2px solid rgba(255, 85, 0, 0.3);
+  border: 2px solid rgba(255, 145, 60, 0.3);
 }
 
 .form-info h3 {
@@ -655,7 +655,7 @@ export default defineComponent({
 
 .post-textarea:focus {
   outline: none;
-  border-color: rgba(255, 85, 0, 0.5);
+  border-color: rgba(255, 145, 60, 0.5);
   background: rgba(255, 255, 255, 0.15);
 }
 
@@ -691,9 +691,9 @@ export default defineComponent({
 }
 
 .github-btn.connected {
-  background: rgba(255, 85, 0, 0.2);
-  border-color: rgba(255, 85, 0, 0.4);
-  color: #ff5500;
+  background: rgba(255, 145, 60, 0.2);
+  border-color: rgba(255, 145, 60, 0.4);
+  color: #ff913c;
 }
 
 .github-icon {
@@ -703,7 +703,7 @@ export default defineComponent({
 
 .post-btn {
   position: relative;
-  background: linear-gradient(135deg, #ff5500 0%, #ff7a00 100%);
+  background: linear-gradient(135deg, #ff913c 0%, #ffaf57 100%);
   border: none;
   border-radius: 8px;
   padding: 12px 24px;
@@ -723,7 +723,7 @@ export default defineComponent({
 
 .post-btn:not(:disabled):hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(255, 85, 0, 0.3);
+  box-shadow: 0 8px 25px rgba(255, 145, 60, 0.3);
 }
 
 .btn-glow {
@@ -775,9 +775,9 @@ export default defineComponent({
 }
 
 .filter-btn.active {
-  background: rgba(255, 85, 0, 0.2);
-  border-color: rgba(255, 85, 0, 0.4);
-  color: #ff5500;
+  background: rgba(255, 145, 60, 0.2);
+  border-color: rgba(255, 145, 60, 0.4);
+  color: #ff913c;
 }
 
 .loading-state {
@@ -795,10 +795,11 @@ export default defineComponent({
   width: 40px;
   height: 40px;
   border: 3px solid rgba(255, 255, 255, 0.2);
-  border-top: 3px solid #ff5500;
+  border-top: 3px solid #ff913c;
   border-radius: 50%;
   animation: spin 1s linear infinite;
 }
+
 
 @keyframes spin {
   0% { transform: rotate(0deg); }
@@ -825,9 +826,9 @@ export default defineComponent({
 
 .post-card:hover {
   background: rgba(255, 255, 255, 0.08);
-  border-color: rgba(255, 85, 0, 0.2);
+  border-color: rgba(255, 145, 60, 0.2);
   transform: translateY(-2px);
-  box-shadow: 0 10px 30px rgba(255, 85, 0, 0.1);
+  box-shadow: 0 10px 30px rgba(255, 145, 60, 0.1);
 }
 
 @keyframes postAppear {
@@ -848,7 +849,7 @@ export default defineComponent({
   width: 45px;
   height: 45px;
   border-radius: 50%;
-  border: 2px solid rgba(255, 85, 0, 0.3);
+  border: 2px solid rgba(255, 145, 60, 0.3);
 }
 
 .post-meta {
@@ -945,15 +946,15 @@ export default defineComponent({
 }
 
 .repo-language {
-  background: rgba(255, 85, 0, 0.2);
-  color: #ff5500;
+  background: rgba(255, 145, 60, 0.2);
+  color: #ff913c;
   padding: 2px 8px;
   border-radius: 4px;
   font-weight: 500;
 }
 
 .repo-link {
-  background: linear-gradient(135deg, #ff5500 0%, #ff7a00 100%);
+  background: linear-gradient(135deg, #ff913c 0%, #ffaf57 100%);
   color: #ffffff;
   text-decoration: none;
   padding: 10px 20px;
@@ -967,7 +968,7 @@ export default defineComponent({
 
 .repo-link:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(255, 85, 0, 0.3);
+  box-shadow: 0 8px 25px rgba(255, 145, 60, 0.3);
 }
 
 .post-tags {
@@ -977,8 +978,8 @@ export default defineComponent({
 }
 
 .tag {
-  background: rgba(255, 85, 0, 0.2);
-  color: #ff5500;
+  background: rgba(255, 145, 60, 0.2);
+  color: #ff913c;
   padding: 4px 12px;
   border-radius: 15px;
   font-family: "Manrope", Helvetica;
@@ -1080,7 +1081,7 @@ export default defineComponent({
 
 .light-theme .post-textarea:focus {
   background: rgba(255, 255, 255, 1);
-  border-color: #ff5500;
+  border-color: #ff913c;
 }
 
 .light-theme .post-textarea::placeholder {
@@ -1098,20 +1099,20 @@ export default defineComponent({
 }
 
 .light-theme .github-btn.connected {
-  background: #ff5500;
+  background: #ff913c;
   color: #ffffff;
-  border-color: #ff5500;
+  border-color: #ff913c;
 }
 
 .light-theme .post-btn {
-  background: #ff5500;
+  background: #ff913c;
   color: #ffffff;
-  border-color: #ff5500;
+  border-color: #ff913c;
 }
 
 .light-theme .post-btn:hover {
-  background: #e64a00;
-  border-color: #e64a00;
+  background: #e67d2b;
+  border-color: #e67d2b;
 }
 
 .light-theme .filter-btn {
@@ -1122,13 +1123,13 @@ export default defineComponent({
 
 .light-theme .filter-btn:hover {
   background: rgba(255, 255, 255, 1);
-  border-color: rgba(255, 85, 0, 0.3);
+  border-color: rgba(255, 145, 60, 0.3);
 }
 
 .light-theme .filter-btn.active {
-  background: #ff5500;
+  background: #ff913c;
   color: #ffffff;
-  border-color: #ff5500;
+  border-color: #ff913c;
 }
 
 .light-theme .post-card {
@@ -1139,8 +1140,8 @@ export default defineComponent({
 
 .light-theme .post-card:hover {
   background: rgba(255, 255, 255, 1);
-  border-color: rgba(255, 85, 0, 0.3);
-  box-shadow: 0 8px 30px rgba(255, 85, 0, 0.2);
+  border-color: rgba(255, 145, 60, 0.3);
+  box-shadow: 0 8px 30px rgba(255, 145, 60, 0.2);
 }
 
 .light-theme .post-author {
@@ -1173,24 +1174,24 @@ export default defineComponent({
 }
 
 .light-theme .repo-language {
-  color: #ff5500;
+  color: #ff913c;
 }
 
 .light-theme .repo-link {
-  background: #ff5500;
+  background: #ff913c;
   color: #ffffff;
-  border-color: #ff5500;
+  border-color: #ff913c;
 }
 
 .light-theme .repo-link:hover {
-  background: #e64a00;
-  border-color: #e64a00;
+  background: #e67d2b;
+  border-color: #e67d2b;
 }
 
 .light-theme .tag {
-  background: rgba(255, 85, 0, 0.1);
-  color: #ff5500;
-  border: 1px solid rgba(255, 85, 0, 0.2);
+  background: rgba(255, 145, 60, 0.1);
+  color: #ff913c;
+  border: 1px solid rgba(255, 145, 60, 0.2);
 }
 
 .light-theme .load-more-btn {
@@ -1201,6 +1202,6 @@ export default defineComponent({
 
 .light-theme .load-more-btn:hover {
   background: rgba(255, 255, 255, 1);
-  border-color: rgba(255, 85, 0, 0.3);
+  border-color: rgba(255, 145, 60, 0.3);
 }
 </style> 

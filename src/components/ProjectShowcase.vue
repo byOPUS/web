@@ -301,9 +301,9 @@ export default defineComponent({
   width: 100%;
   height: 100%;
   background-image: 
-    radial-gradient(1px 1px at 25% 35%, rgba(255, 85, 0, 0.2), transparent),
+    radial-gradient(1px 1px at 25% 35%, rgba(255, 145, 60, 0.2), transparent),
     radial-gradient(1px 1px at 65% 75%, rgba(255, 255, 255, 0.1), transparent),
-    radial-gradient(2px 2px at 85% 25%, rgba(255, 85, 0, 0.15), transparent);
+    radial-gradient(2px 2px at 85% 25%, rgba(255, 145, 60, 0.15), transparent);
   background-size: 320px 320px, 220px 220px, 380px 380px;
   animation: showcase-float 28s ease-in-out infinite;
 }
@@ -330,7 +330,7 @@ export default defineComponent({
   line-height: 1.3;
   text-align: center;
   margin: 0 0 20px 0;
-  background: linear-gradient(135deg, #ffffff 0%, #ff5500 100%);
+  background: linear-gradient(135deg, #ffffff 0%, #ff913c 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -404,7 +404,7 @@ export default defineComponent({
 
 .create-project-btn {
   position: relative;
-  background: linear-gradient(135deg, #ff5500 0%, #ff7a00 100%);
+  background: linear-gradient(135deg, #ff913c 0%, #ffaf57 100%);
   border: none;
   border-radius: 12px;
   padding: 15px 40px;
@@ -419,7 +419,7 @@ export default defineComponent({
 
 .create-project-btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(255, 85, 0, 0.3);
+  box-shadow: 0 8px 25px rgba(255, 145, 60, 0.3);
 }
 
 .btn-glow {
@@ -471,9 +471,9 @@ export default defineComponent({
 }
 
 .filter-btn.active {
-  background: rgba(255, 85, 0, 0.2);
-  border-color: rgba(255, 85, 0, 0.4);
-  color: #ff5500;
+  background: rgba(255, 145, 60, 0.2);
+  border-color: rgba(255, 145, 60, 0.4);
+  color: #ff913c;
 }
 
 .loading-state {
@@ -491,10 +491,11 @@ export default defineComponent({
   width: 40px;
   height: 40px;
   border: 3px solid rgba(255, 255, 255, 0.2);
-  border-top: 3px solid #ff5500;
+  border-top: 3px solid #ff913c;
   border-radius: 50%;
   animation: spin 1s linear infinite;
 }
+
 
 @keyframes spin {
   0% { transform: rotate(0deg); }
@@ -522,9 +523,9 @@ export default defineComponent({
 
 .project-card:hover {
   background: rgba(255, 255, 255, 0.08);
-  border-color: rgba(255, 85, 0, 0.2);
+  border-color: rgba(255, 145, 60, 0.2);
   transform: translateY(-5px);
-  box-shadow: 0 15px 40px rgba(255, 85, 0, 0.15);
+  box-shadow: 0 15px 40px rgba(255, 145, 60, 0.15);
 }
 
 @keyframes projectAppear {
@@ -616,8 +617,8 @@ export default defineComponent({
 }
 
 .project-category {
-  background: rgba(255, 85, 0, 0.2);
-  color: #ff5500;
+  background: rgba(255, 145, 60, 0.2);
+  color: #ff913c;
   padding: 4px 12px;
   border-radius: 12px;
   font-size: 12px;
@@ -650,7 +651,7 @@ export default defineComponent({
   width: 24px;
   height: 24px;
   border-radius: 50%;
-  border: 1px solid rgba(255, 85, 0, 0.3);
+  border: 1px solid rgba(255, 145, 60, 0.3);
 }
 
 .project-author span {
@@ -714,8 +715,8 @@ export default defineComponent({
 }
 
 .github-link:hover {
-  background: rgba(255, 85, 0, 0.2);
-  border-color: rgba(255, 85, 0, 0.4);
+  background: rgba(255, 145, 60, 0.2);
+  border-color: rgba(255, 145, 60, 0.4);
 }
 
 .live-link:hover {
@@ -814,9 +815,9 @@ export default defineComponent({
 }
 
 .light-theme .create-project-btn {
-  background: #ff5500;
+  background: #ff913c;
   color: #ffffff;
-  border-color: #ff5500;
+  border-color: #ff913c;
 }
 
 .light-theme .create-project-btn:hover {
@@ -832,13 +833,13 @@ export default defineComponent({
 
 .light-theme .filter-btn:hover {
   background: rgba(255, 255, 255, 1);
-  border-color: rgba(255, 85, 0, 0.3);
+  border-color: rgba(255, 145, 60, 0.3);
 }
 
 .light-theme .filter-btn.active {
-  background: #ff5500;
+  background: #ff913c;
   color: #ffffff;
-  border-color: #ff5500;
+  border-color: #ff913c;
 }
 
 .light-theme .project-card {
@@ -849,8 +850,8 @@ export default defineComponent({
 
 .light-theme .project-card:hover {
   background: rgba(255, 255, 255, 1);
-  border-color: rgba(255, 85, 0, 0.3);
-  box-shadow: 0 8px 30px rgba(255, 85, 0, 0.2);
+  border-color: rgba(255, 145, 60, 0.3);
+  box-shadow: 0 8px 30px rgba(255, 145, 60, 0.2);
 }
 
 .light-theme .project-title {
@@ -874,9 +875,9 @@ export default defineComponent({
 }
 
 .light-theme .tech-tag {
-  background: rgba(255, 85, 0, 0.1);
-  color: #ff5500;
-  border: 1px solid rgba(255, 85, 0, 0.2);
+  background: rgba(255, 145, 60, 0.1);
+  color: #ff913c;
+  border: 1px solid rgba(255, 145, 60, 0.2);
 }
 
 .light-theme .project-link {
@@ -887,18 +888,18 @@ export default defineComponent({
 
 .light-theme .project-link:hover {
   background: rgba(255, 255, 255, 1);
-  border-color: rgba(255, 85, 0, 0.3);
+  border-color: rgba(255, 145, 60, 0.3);
 }
 
 .light-theme .github-link {
-  background: #ff5500;
+  background: #ff913c;
   color: #ffffff;
-  border-color: #ff5500;
+  border-color: #ff913c;
 }
 
 .light-theme .github-link:hover {
-  background: #e64a00;
-  border-color: #e64a00;
+  background: #e67d2b;
+  border-color: #e67d2b;
 }
 
 .light-theme .live-link {
@@ -920,6 +921,6 @@ export default defineComponent({
 
 .light-theme .load-more-btn:hover {
   background: rgba(255, 255, 255, 1);
-  border-color: rgba(255, 85, 0, 0.3);
+  border-color: rgba(255, 145, 60, 0.3);
 }
 </style>

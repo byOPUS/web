@@ -61,9 +61,9 @@ export default defineComponent({
 
 .faq-item:hover {
   background: rgba(255, 255, 255, 0.08);
-  border-color: rgba(255, 85, 0, 0.3);
+  border-color: rgba(255, 145, 60, 0.3);
   transform: translateY(-2px);
-  box-shadow: 0 8px 32px rgba(255, 85, 0, 0.1);
+  box-shadow: 0 8px 32px rgba(255, 145, 60, 0.1);
 }
 
 .faq-question {
@@ -83,7 +83,7 @@ export default defineComponent({
 }
 
 .faq-question:hover {
-  background: rgba(255, 85, 0, 0.1);
+  background: rgba(255, 145, 60, 0.1);
 }
 
 .faq-question span {
@@ -104,7 +104,7 @@ export default defineComponent({
 }
 
 .faq-item:hover .chevron-container {
-  background: rgba(255, 85, 0, 0.2);
+  background: rgba(255, 145, 60, 0.2);
   transform: scale(1.1);
 }
 

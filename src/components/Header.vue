@@ -132,7 +132,7 @@ export default defineComponent({
 }
 
 .header-subtitle {
-  color: #ff5500;
+  color: #ff913c;
   font-family: "Manrope", Helvetica;
   font-size: 16px;
   font-weight: 500;
@@ -149,7 +149,7 @@ export default defineComponent({
   letter-spacing: -2px;
   line-height: 1.1;
   margin: 0;
-  background: linear-gradient(135deg, #ffffff 0%, #ff5500 50%, #ffffff 100%);
+  background: linear-gradient(135deg, #ffffff 0%, #ff913c 50%, #ffffff 100%);
   background-size: 200% 200%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -195,14 +195,14 @@ export default defineComponent({
 }
 
 .btn-primary {
-  background: linear-gradient(135deg, #ff5500 0%, #ff7a00 100%);
+  background: linear-gradient(135deg, #ff913c 0%, #ffaf57 100%);
   color: #ffffff;
-  box-shadow: 0 8px 32px rgba(255, 85, 0, 0.3);
+  box-shadow: 0 8px 32px rgba(255, 145, 60, 0.3);
 }
 
 .btn-primary:hover {
   transform: translateY(-3px);
-  box-shadow: 0 12px 40px rgba(255, 85, 0, 0.4);
+  box-shadow: 0 12px 40px rgba(255, 145, 60, 0.4);
 }
 
 .btn-secondary {
@@ -252,10 +252,11 @@ export default defineComponent({
   width: 32px;
   height: 32px;
   border-radius: 50%;
-  border: 2px solid rgba(255, 85, 0, 0.3);
+  border: 2px solid rgba(255, 145, 60, 0.3);
   margin-left: -8px;
   transition: transform 0.3s ease;
 }
+
 
 .avatar:first-child {
   margin-left: 0;

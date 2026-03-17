@@ -175,7 +175,7 @@ export default defineComponent({
 
 .macbook-pro-subsection .frame-3 {
   align-items: center;
-  background-color: #ff5500;
+  background-color: #ff913c;
   border-radius: 71.58px;
   display: inline-flex;
   flex: 0 0 auto;

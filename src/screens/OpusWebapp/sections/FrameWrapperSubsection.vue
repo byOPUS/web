@@ -73,7 +73,9 @@ export default defineComponent({
 
 .frame-wrapper-subsection .frame-22::before {
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
+  mask-composite: exclude;
   background: linear-gradient(98deg, rgba(18, 18, 18, 1) 0%, rgba(120, 120, 120, 0.41) 100%);
   border-radius: 22.91px;
   content: "";
@@ -86,7 +88,7 @@ export default defineComponent({
 }
 
 .frame-wrapper-subsection .ellipse {
-  background-color: #ff6100a6;
+  background-color: rgba(255, 145, 60, 0.65);
   border-radius: 188.26px;
   filter: blur(143.16px);
   height: 377px;
@@ -174,7 +176,7 @@ export default defineComponent({
 
 .frame-wrapper-subsection .frame-25 {
   align-items: center;
-  background-color: #ff5500;
+  background-color: #ff913c;
   border-radius: 71.58px;
   display: inline-flex;
   flex: 0 0 auto;

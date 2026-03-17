@@ -194,7 +194,8 @@ export default defineComponent({
       }
     },
     
-    getCategoryName(category: string): string {
+    getCategoryName(category: string | undefined): string {
+      if (!category) return 'Other'
       const categoryMap: { [key: string]: string } = {
         'web-development': 'Web Development',
         'mobile-app': 'Mobile App',
@@ -205,7 +206,8 @@ export default defineComponent({
       return categoryMap[category] || category
     },
     
-    getDifficultyName(difficulty: string): string {
+    getDifficultyName(difficulty: string | undefined): string {
+      if (!difficulty) return 'Unknown'
       const difficultyMap: { [key: string]: string } = {
         'beginner': 'Beginner',
         'intermediate': 'Intermediate',
@@ -294,7 +296,7 @@ export default defineComponent({
   width: 40px;
   height: 40px;
   border: 3px solid rgba(255, 255, 255, 0.1);
-  border-top: 3px solid #ff5500;
+  border-top: 3px solid #ff913c;
   border-radius: 50%;
   animation: spin 1s linear infinite;
   margin-bottom: 20px;
@@ -324,7 +326,7 @@ export default defineComponent({
 }
 
 .home-button {
-  background: #ff5500;
+  background: #ff913c;
   color: #ffffff;
   border: none;
   padding: 12px 24px;
@@ -337,7 +339,7 @@ export default defineComponent({
 }
 
 .home-button:hover {
-  background: #e64a00;
+  background: #e67d2b;
 }
 
 .project-content {
@@ -381,9 +383,9 @@ export default defineComponent({
 }
 
 .project-category {
-  background: rgba(255, 85, 0, 0.2);
-  color: #ff5500;
-  border: 1px solid rgba(255, 85, 0, 0.3);
+  background: rgba(255, 145, 60, 0.2);
+  color: #ff913c;
+  border: 1px solid rgba(255, 145, 60, 0.3);
 }
 
 .project-difficulty {
@@ -519,9 +521,9 @@ export default defineComponent({
 
 .like-button:hover,
 .like-button.liked {
-  background: rgba(255, 85, 0, 0.2);
-  color: #ff5500;
-  border-color: rgba(255, 85, 0, 0.3);
+  background: rgba(255, 145, 60, 0.2);
+  color: #ff913c;
+  border-color: rgba(255, 145, 60, 0.3);
 }
 
 .github-button {
@@ -541,15 +543,16 @@ export default defineComponent({
 }
 
 .live-button {
-  background: #ff5500;
+  background: #ff913c;
   color: #ffffff;
-  border-color: #ff5500;
+  border-color: #ff913c;
 }
 
 .live-button:hover {
-  background: #e64a00;
-  border-color: #e64a00;
+  background: #e67d2b;
+  border-color: #e67d2b;
 }
+
 
 .project-details {
   display: grid;

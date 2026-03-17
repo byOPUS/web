@@ -84,8 +84,8 @@ export default defineComponent({
 
 .project-card:hover {
   transform: translateY(-5px);
-  border-color: rgba(255, 85, 0, 0.3);
-  box-shadow: 0 20px 40px rgba(255, 85, 0, 0.1);
+  border-color: rgba(255, 145, 60, 0.3);
+  box-shadow: 0 20px 40px rgba(255, 145, 60, 0.1);
 }
 
 .project-card::before {
@@ -109,7 +109,7 @@ export default defineComponent({
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(135deg, rgba(255, 85, 0, 0.05) 0%, rgba(255, 255, 255, 0.02) 100%);
+  background: linear-gradient(135deg, rgba(255, 145, 60, 0.05) 0%, rgba(255, 255, 255, 0.02) 100%);
   z-index: -1;
 }
 
@@ -198,7 +198,7 @@ export default defineComponent({
 }
 
 .repo-link {
-  color: #ff5500;
+  color: #ff913c;
   font-family: "Manrope", Helvetica;
   font-size: 16px;
   font-weight: 500;
@@ -206,16 +206,17 @@ export default defineComponent({
   line-height: 19.2px;
   text-decoration: none;
   padding: 12px 20px;
-  border: 1px solid #ff5500;
+  border: 1px solid #ff913c;
   border-radius: 8px;
   transition: all 0.3s ease;
 }
 
 .repo-link:hover {
-  background-color: #ff5500;
+  background-color: #ff913c;
   color: #ffffff;
   text-decoration: none;
 }
+
 
 @media (max-width: 768px) {
   .project-card {

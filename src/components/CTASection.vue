@@ -75,7 +75,7 @@ export default defineComponent({
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(135deg, rgba(255, 85, 0, 0.1) 0%, rgba(0, 0, 0, 0.8) 50%, rgba(255, 85, 0, 0.1) 100%);
+  background: linear-gradient(135deg, rgba(255, 145, 60, 0.1) 0%, rgba(0, 0, 0, 0.8) 50%, rgba(255, 145, 60, 0.1) 100%);
   overflow: hidden;
 }
 
@@ -91,7 +91,7 @@ export default defineComponent({
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  border: 2px solid rgba(255, 85, 0, 0.3);
+  border: 2px solid rgba(255, 145, 60, 0.3);
   border-radius: 50%;
   animation: pulse 3s ease-in-out infinite;
 }
@@ -141,7 +141,7 @@ export default defineComponent({
   position: absolute;
   width: 100%;
   height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(255, 85, 0, 0.1), transparent);
+  background: linear-gradient(90deg, transparent, rgba(255, 145, 60, 0.1), transparent);
   animation: wave-flow 4s ease-in-out infinite;
 }
 
@@ -190,7 +190,7 @@ export default defineComponent({
   letter-spacing: -1px;
   line-height: 1.2;
   margin: 0;
-  background: linear-gradient(135deg, #ffffff 0%, #ff5500 100%);
+  background: linear-gradient(135deg, #ffffff 0%, #ff913c 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -283,16 +283,17 @@ export default defineComponent({
 }
 
 .btn-primary {
-  background: linear-gradient(135deg, #ff5500 0%, #ff7a00 100%);
+  background: linear-gradient(135deg, #ff913c 0%, #ffaf57 100%);
   color: #ffffff;
-  box-shadow: 0 10px 40px rgba(255, 85, 0, 0.4);
+  box-shadow: 0 10px 40px rgba(255, 145, 60, 0.4);
 }
 
 .btn-primary:hover {
   transform: translateY(-3px);
-  box-shadow: 0 15px 50px rgba(255, 85, 0, 0.6);
-  background: linear-gradient(135deg, #ff7a00 0%, #ff5500 100%);
+  box-shadow: 0 15px 50px rgba(255, 145, 60, 0.6);
+  background: linear-gradient(135deg, #ffaf57 0%, #ff913c 100%);
 }
+
 
 .btn-secondary {
   background: rgba(255, 255, 255, 0.1);

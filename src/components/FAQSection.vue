@@ -88,9 +88,9 @@ export default defineComponent({
   width: 100%;
   height: 100%;
   background-image: 
-    radial-gradient(1px 1px at 25% 35%, rgba(255, 85, 0, 0.2), transparent),
+    radial-gradient(1px 1px at 25% 35%, rgba(255, 145, 60, 0.2), transparent),
     radial-gradient(1px 1px at 65% 75%, rgba(255, 255, 255, 0.1), transparent),
-    radial-gradient(2px 2px at 85% 25%, rgba(255, 85, 0, 0.15), transparent),
+    radial-gradient(2px 2px at 85% 25%, rgba(255, 145, 60, 0.15), transparent),
     radial-gradient(1px 1px at 45% 85%, rgba(255, 255, 255, 0.08), transparent);
   background-size: 350px 350px, 250px 250px, 400px 400px, 300px 300px;
   animation: faq-float 20s ease-in-out infinite;
@@ -122,7 +122,7 @@ export default defineComponent({
   line-height: 1.1;
   text-align: center;
   margin: 0;
-  background: linear-gradient(135deg, #ffffff 0%, #ff5500 100%);
+  background: linear-gradient(135deg, #ffffff 0%, #ff913c 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -130,6 +130,7 @@ export default defineComponent({
   transform: translateY(30px);
   transition: all 0.8s ease;
 }
+
 
 .section-title.animate-in {
   opacity: 1;

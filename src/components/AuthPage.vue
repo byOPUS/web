@@ -253,9 +253,9 @@ export default defineComponent({
   width: 100%;
   height: 100%;
   background-image: 
-    radial-gradient(2px 2px at 20% 30%, rgba(255, 85, 0, 0.2), transparent),
+    radial-gradient(2px 2px at 20% 30%, rgba(255, 145, 60, 0.2), transparent),
     radial-gradient(1px 1px at 60% 70%, rgba(255, 255, 255, 0.1), transparent),
-    radial-gradient(3px 3px at 80% 20%, rgba(255, 85, 0, 0.15), transparent),
+    radial-gradient(3px 3px at 80% 20%, rgba(255, 145, 60, 0.15), transparent),
     radial-gradient(1px 1px at 40% 80%, rgba(255, 255, 255, 0.08), transparent);
   background-size: 400px 400px, 300px 300px, 500px 500px, 200px 200px;
   animation: auth-float 25s ease-in-out infinite;
@@ -310,7 +310,7 @@ export default defineComponent({
   height: 40px;
   width: auto;
   margin-bottom: 16px;
-  filter: drop-shadow(0 0 15px rgba(255, 85, 0, 0.5));
+  filter: drop-shadow(0 0 15px rgba(255, 145, 60, 0.5));
 }
 
 .auth-title {
@@ -319,7 +319,7 @@ export default defineComponent({
   font-weight: 700;
   color: #ffffff;
   margin: 0 0 8px 0;
-  background: linear-gradient(135deg, #ffffff 0%, #ff5500 100%);
+  background: linear-gradient(135deg, #ffffff 0%, #ff913c 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -377,9 +377,9 @@ export default defineComponent({
 }
 
 .tab-button.active {
-  background: linear-gradient(135deg, #ff5500 0%, #ff7a00 100%);
+  background: linear-gradient(135deg, #ff913c 0%, #ffaf57 100%);
   color: #ffffff;
-  box-shadow: 0 4px 15px rgba(255, 85, 0, 0.3);
+  box-shadow: 0 4px 15px rgba(255, 145, 60, 0.3);
 }
 
 .auth-form {
@@ -417,9 +417,9 @@ export default defineComponent({
 
 .form-group input:focus {
   outline: none;
-  border-color: #ff5500;
-  background: rgba(255, 85, 0, 0.05);
-  box-shadow: 0 0 0 4px rgba(255, 85, 0, 0.1);
+  border-color: #ff913c;
+  background: rgba(255, 145, 60, 0.05);
+  box-shadow: 0 0 0 4px rgba(255, 145, 60, 0.1);
 }
 
 .form-group input:disabled {
@@ -483,7 +483,7 @@ export default defineComponent({
 .resend-button {
   background: none;
   border: none;
-  color: #ff5500;
+  color: #ff913c;
   font-family: "Manrope", Helvetica;
   font-size: 16px;
   font-weight: 600;
@@ -493,7 +493,7 @@ export default defineComponent({
 }
 
 .resend-button:hover {
-  color: #ff7a00;
+  color: #ffaf57;
 }
 
 .resend-button:disabled {
@@ -504,7 +504,7 @@ export default defineComponent({
 .try-again-button {
   background: none;
   border: none;
-  color: #ff5500;
+  color: #ff913c;
   font-family: "Manrope", Helvetica;
   font-size: 16px;
   font-weight: 600;
@@ -514,11 +514,11 @@ export default defineComponent({
 }
 
 .try-again-button:hover {
-  color: #ff7a00;
+  color: #ffaf57;
 }
 
 .submit-button {
-  background: linear-gradient(135deg, #ff5500 0%, #ff7a00 100%);
+  background: linear-gradient(135deg, #ff913c 0%, #ffaf57 100%);
   color: #ffffff;
   border: none;
   border-radius: 12px;
@@ -538,7 +538,7 @@ export default defineComponent({
 
 .submit-button:hover:not(:disabled) {
   transform: translateY(-2px);
-  box-shadow: 0 12px 30px rgba(255, 85, 0, 0.4);
+  box-shadow: 0 12px 30px rgba(255, 145, 60, 0.4);
 }
 
 .submit-button:disabled {
@@ -576,7 +576,7 @@ export default defineComponent({
 .link-button {
   background: none;
   border: none;
-  color: #ff5500;
+  color: #ff913c;
   font-family: "Manrope", Helvetica;
   font-size: 16px;
   font-weight: 600;
@@ -586,8 +586,9 @@ export default defineComponent({
 }
 
 .link-button:hover {
-  color: #ff7a00;
+  color: #ffaf57;
 }
+
 
 .auth-features {
   display: flex;

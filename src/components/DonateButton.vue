@@ -138,12 +138,12 @@ export default defineComponent({
   display: flex;
   align-items: center;
   gap: 8px;
-  background: linear-gradient(135deg, #ff5500 0%, #ff7a00 100%);
+  background: linear-gradient(135deg, #ff913c 0%, #ffaf57 100%);
   color: #ffffff;
   padding: 12px 20px;
   border-radius: 50px;
   cursor: pointer;
-  box-shadow: 0 8px 25px rgba(255, 85, 0, 0.3);
+  box-shadow: 0 8px 25px rgba(255, 145, 60, 0.3);
   transition: all 0.3s ease;
   border: none;
   font-weight: 600;
@@ -152,8 +152,9 @@ export default defineComponent({
 
 .donate-button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 12px 35px rgba(255, 85, 0, 0.4);
+  box-shadow: 0 12px 35px rgba(255, 145, 60, 0.4);
 }
+
 
 .donate-icon {
   display: flex;
@@ -285,9 +286,9 @@ export default defineComponent({
 }
 
 .amount-btn.selected {
-  background: rgba(255, 85, 0, 0.2);
-  border-color: rgba(255, 85, 0, 0.4);
-  color: #ff5500;
+  background: rgba(255, 145, 60, 0.2);
+  border-color: rgba(255, 145, 60, 0.4);
+  color: #ff913c;
 }
 
 .custom-amount {
@@ -314,7 +315,7 @@ export default defineComponent({
 
 .custom-input:focus {
   outline: none;
-  border-color: rgba(255, 85, 0, 0.5);
+  border-color: rgba(255, 145, 60, 0.5);
   background: rgba(255, 255, 255, 0.15);
 }
 
@@ -333,7 +334,7 @@ export default defineComponent({
   align-items: center;
   justify-content: center;
   gap: 8px;
-  background: linear-gradient(135deg, #ff5500 0%, #ff7a00 100%);
+  background: linear-gradient(135deg, #ff913c 0%, #ffaf57 100%);
   color: #ffffff;
   padding: 14px 20px;
   border-radius: 8px;
@@ -344,7 +345,7 @@ export default defineComponent({
 
 .donate-cta:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(255, 85, 0, 0.3);
+  box-shadow: 0 8px 25px rgba(255, 145, 60, 0.3);
 }
 
 .external-icon {

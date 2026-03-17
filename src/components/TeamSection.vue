@@ -101,11 +101,11 @@ export default defineComponent({
   width: 100%;
   height: 100%;
   background-image: 
-    radial-gradient(1px 1px at 25% 25%, rgba(255, 85, 0, 0.3), transparent),
+    radial-gradient(1px 1px at 25% 25%, rgba(255, 145, 60, 0.3), transparent),
     radial-gradient(1px 1px at 75% 75%, rgba(255, 255, 255, 0.2), transparent),
-    radial-gradient(2px 2px at 50% 10%, rgba(255, 85, 0, 0.2), transparent),
+    radial-gradient(2px 2px at 50% 10%, rgba(255, 145, 60, 0.2), transparent),
     radial-gradient(1px 1px at 10% 80%, rgba(255, 255, 255, 0.1), transparent),
-    radial-gradient(2px 2px at 90% 40%, rgba(255, 85, 0, 0.3), transparent);
+    radial-gradient(2px 2px at 90% 40%, rgba(255, 145, 60, 0.3), transparent);
   background-size: 200px 200px, 300px 300px, 150px 150px, 250px 250px, 180px 180px;
   animation: float 20s ease-in-out infinite;
 }
@@ -125,7 +125,7 @@ export default defineComponent({
   line-height: 1.3;
   text-align: center;
   margin: 0;
-  background: linear-gradient(135deg, #ffffff 0%, #ff5500 100%);
+  background: linear-gradient(135deg, #ffffff 0%, #ff913c 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -185,7 +185,7 @@ export default defineComponent({
   display: flex;
   align-items: center;
   gap: 15px;
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 85, 0, 0.1) 100%);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 145, 60, 0.1) 100%);
   border: 2px solid rgba(255, 255, 255, 0.2);
   border-radius: 50px;
   padding: 20px 30px;
@@ -204,10 +204,10 @@ export default defineComponent({
 }
 
 .discord-cta:hover {
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 85, 0, 0.2) 100%);
-  border-color: rgba(255, 85, 0, 0.4);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 145, 60, 0.2) 100%);
+  border-color: rgba(255, 145, 60, 0.4);
   transform: translateY(-3px);
-  box-shadow: 0 10px 30px rgba(255, 85, 0, 0.2);
+  box-shadow: 0 10px 30px rgba(255, 145, 60, 0.2);
 }
 
 .cta-glow {
@@ -216,7 +216,7 @@ export default defineComponent({
   left: -100%;
   width: 100%;
   height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(255, 85, 0, 0.2), transparent);
+  background: linear-gradient(90deg, transparent, rgba(255, 145, 60, 0.2), transparent);
   transition: left 0.6s ease;
 }
 
@@ -227,8 +227,9 @@ export default defineComponent({
 .discord-icon {
   width: 24px;
   height: 24px;
-  filter: drop-shadow(0 0 10px rgba(255, 85, 0, 0.5));
+  filter: drop-shadow(0 0 10px rgba(255, 145, 60, 0.5));
 }
+
 
 .discord-cta span {
   color: #ffffff;
